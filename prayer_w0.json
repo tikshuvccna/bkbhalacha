@@ -1,0 +1,80 @@
+[
+  {
+    "type": "image",
+    "src": "media/m26-r-w0-kids-q.jpg",
+    "seconds": 15,
+    "from": "2026-10-06T00:00",
+    "until": "2026-10-08T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w0-kids-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-08T00:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w0-adult-q.jpg",
+    "seconds": 15,
+    "from": "2026-10-06T00:00",
+    "until": "2026-10-09T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w0-adult-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-09T00:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-s-rosh-chodesh.jpg",
+    "seconds": 15,
+    "from": "2026-10-10T18:00",
+    "until": "2026-10-13T00:00"
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "תפילת המנחה היא התפילה שבה נענה אליהו הנביא בהר הכרמל, ולכן אמרו חכמים להיזהר בה במיוחד.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "ערבית נתקנה על ידי יעקב אבינו, ובמקור היא רשות. עם הזמן קיבלו עליה כל ישראל כחובה.",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "קוראים בתורה בשני, בחמישי ובשבת כדי שלא יעברו שלושה ימים בלא תורה. התורה נמשלה למים, והמים מחיים.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  }
+]

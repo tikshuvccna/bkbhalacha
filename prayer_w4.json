@@ -1,0 +1,70 @@
+[
+  {
+    "type": "image",
+    "src": "media/m26-r-w4-kids-q.jpg",
+    "seconds": 15,
+    "from": "2026-11-01T00:00",
+    "until": "2026-11-04T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w4-kids-a.jpg",
+    "seconds": 15,
+    "from": "2026-11-04T00:00",
+    "until": "2026-11-10T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w4-adult-q.jpg",
+    "seconds": 15,
+    "from": "2026-11-01T00:00",
+    "until": "2026-11-06T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w4-adult-a.jpg",
+    "seconds": 15,
+    "from": "2026-11-06T00:00",
+    "until": "2026-11-10T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "תודה מכל הלב",
+    "body": "לבני היקר, על הכבוד, ההשתדלות והלב הטוב. מעריכים אותך!",
+    "seconds": 15,
+    "from": "2026-11-03T00:00",
+    "until": "2026-11-04T00:00"
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "בשחרית סומכים גאל ישראל לתפילה בלי הפסק. בערבית אין מדקדקים כל כך, ולכן אומרים השכיבנו וגם חצי קדיש.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "משעת חצות היום צריך להיזהר ממלאכות ארוכות שעלולות לגרום לשכוח להתפלל מנחה.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  }
+]

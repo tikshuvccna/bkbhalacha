@@ -1,0 +1,88 @@
+[
+  {
+    "type": "image",
+    "src": "media/m26-r-w3-kids-q.jpg",
+    "seconds": 15,
+    "from": "2026-10-25T00:00",
+    "until": "2026-10-28T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w3-kids-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-28T00:00",
+    "until": "2026-11-01T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w3-adult-q.jpg",
+    "seconds": 15,
+    "from": "2026-10-25T00:00",
+    "until": "2026-10-30T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w3-adult-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-30T00:00",
+    "until": "2026-11-01T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-c-1.jpg",
+    "seconds": 15,
+    "from": "2026-10-19T00:00",
+    "until": "2026-10-26T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-c-2.jpg",
+    "seconds": 15,
+    "from": "2026-10-19T00:00",
+    "until": "2026-10-26T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-c-3.jpg",
+    "seconds": 15,
+    "from": "2026-10-19T00:00",
+    "until": "2026-10-26T00:00"
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "אין אומרים חזרת הש\"ץ בערבית, כי במקור היא רשות.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "אסור לצאת מבית הכנסת בזמן קריאת התורה, אפילו מי ששמע כבר. מי שחייב לצאת, יצא בין עולה לעולה.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  }
+]

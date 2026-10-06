@@ -1,0 +1,98 @@
+[
+  {
+    "type": "image",
+    "src": "media/m26-r-w1-kids-q.jpg",
+    "seconds": 15,
+    "from": "2026-10-11T00:00",
+    "until": "2026-10-14T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w1-kids-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-14T00:00",
+    "until": "2026-10-18T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w1-adult-q.jpg",
+    "seconds": 15,
+    "from": "2026-10-11T00:00",
+    "until": "2026-10-16T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w1-adult-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-16T00:00",
+    "until": "2026-10-18T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-s-rosh-chodesh.jpg",
+    "seconds": 15,
+    "from": "2026-10-10T18:00",
+    "until": "2026-10-13T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-s-vten-tal.jpg",
+    "seconds": 15,
+    "from": "2026-10-16T00:00",
+    "until": "2026-10-19T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "בראש חודש היו רגילים להקביל את פני הרב, כפי שנוהגים בשבת לומר לרב שבת שלום.",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "ראש חודש חשוון הוא יומיים: ל' בתשרי וא' בחשוון, כי תשרי הוא חודש מלא בן שלושים יום.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "בארץ ישראל מבקשים גשם מליל ז' בחשוון. בחוץ לארץ מבקשים רק מיום שישים לתקופה, ב-4 או 5 בדצמבר.",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "מי שהסתפק אם אמר ותן טל ומטר כראוי בתוך שלושים יום מהחלפת הנוסח, מן הסתם טעה וחוזר. אחרי שלושים יום, אינו חוזר.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  }
+]

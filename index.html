@@ -108,7 +108,7 @@
 
     // לוח תוכן מיוחד (חגים וכו'): קובץ עם חלונות זמן, גובר על halacha_1.txt
     const SCHEDULE_PATH = "./schedule.json";
-    const SCHEDULE_RELOAD_MS = 10 * 60 * 1000;
+    const SCHEDULE_RELOAD_MS = 30 * 60 * 1000; // התוכן מתוכנן מראש לחודש, אין צורך לבדוק לעיתים קרובות
 
     // ברירת מחדל (עד שהכול נטען / אם אין נתונים)
     const FALLBACK_TEXT =
@@ -258,7 +258,7 @@
     // כל קובץ שנטען נשמר גם בזיכרון הדפדפן. בטעינת הדף מציגים מיד מהזיכרון
     // (בלי הבהוב של הלכת ברירת המחדל), ואז מתעדכנים מהרשת.
     const netText = async (path) => {
-      const r = await fetch(path, { cache: "no-store" });
+      const r = await fetch(path, { cache: "no-cache" }); // בדיקה מול השרת, ו-304 קטן אם לא השתנה
       if (!r.ok) throw new Error(path);
       const t = await r.text();
       lsSet("cache:" + path, t);
@@ -297,7 +297,7 @@
               playlistCache[p.items] = items;
               for (const it of items) {
                 if (it.type === "halacha" && it.file) files.add(it.file);
-                if (it.type === "image" && it.src) new Image().src = "./" + it.src; // טעינה מוקדמת
+                if (it.type === "image" && it.src && itemValidNow(it)) new Image().src = "./" + it.src; // טעינה מוקדמת, רק לפריטים שרלוונטיים עכשיו
               }
             }
           }
@@ -386,6 +386,11 @@
         w.push([e, e + 2 * 3600000]);
       }
       return w.some(([a, b]) => now >= a - margin && now <= b + margin);
+    }
+
+    function itemValidNow(it){
+      const stamp = nowStampInTZ();
+      return (!it.from || stamp >= it.from) && (!it.until || stamp < it.until);
     }
 
     function activePlaylist(){
