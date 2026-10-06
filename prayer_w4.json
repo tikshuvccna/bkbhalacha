@@ -8,10 +8,80 @@
   },
   {
     "type": "image",
+    "src": "media/m26-cx-maariv-1.jpg",
+    "seconds": 15,
+    "from": "2026-11-01T00:00",
+    "until": "2026-11-10T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-cx-maariv-2.jpg",
+    "seconds": 15,
+    "from": "2026-11-01T00:00",
+    "until": "2026-11-10T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-cx-maariv-3.jpg",
+    "seconds": 15,
+    "from": "2026-11-01T00:00",
+    "until": "2026-11-10T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "בשחרית סומכים גאל ישראל לתפילה בלי הפסק. בערבית אין מדקדקים כל כך, ולכן אומרים השכיבנו וגם חצי קדיש.",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-mi-avot-1-2.jpg",
+    "seconds": 15,
+    "from": "2026-11-01T00:00",
+    "until": "2026-11-10T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-sh-a.jpg",
+    "seconds": 15,
+    "from": "2026-11-06T12:00",
+    "until": "2026-11-08T00:00"
+  },
+  {
+    "type": "text",
+    "title": "תודה מכל הלב",
+    "body": "לבני היקר, על הכבוד, ההשתדלות והלב הטוב. מעריכים אותך!",
+    "seconds": 15,
+    "from": "2026-11-03T00:00",
+    "until": "2026-11-04T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
     "src": "media/m26-r-w4-kids-a.jpg",
     "seconds": 15,
     "from": "2026-11-04T00:00",
     "until": "2026-11-10T00:00"
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "משעת חצות היום צריך להיזהר ממלאכות ארוכות שעלולות לגרום לשכוח להתפלל מנחה.",
+    "seconds": 15
   },
   {
     "type": "halacha",
@@ -26,6 +96,17 @@
     "until": "2026-11-06T00:00"
   },
   {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "חכמים תיקנו קדיש בסיום כל שלב של התפילה: אחר פסוקי דזמרה חצי קדיש, ואחר קדושה דסדרא קדיש תתקבל.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
     "type": "image",
     "src": "media/m26-r-w4-adult-a.jpg",
     "seconds": 15,
@@ -33,22 +114,27 @@
     "until": "2026-11-10T00:00"
   },
   {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "זמן קריאת שמע של ערבית נקבע עד חצות הלילה, כדי שלא נישקע בשינה ונפסיד אותו.",
+    "seconds": 15
+  },
+  {
     "type": "halacha",
     "file": "month_pool.txt",
     "seconds": 15
   },
   {
-    "type": "text",
-    "title": "תודה מכל הלב",
-    "body": "לבני היקר, על הכבוד, ההשתדלות והלב הטוב. מעריכים אותך!",
+    "type": "image",
+    "src": "media/m26-r-w4-kids2-q.jpg",
     "seconds": 15,
     "from": "2026-11-03T00:00",
-    "until": "2026-11-04T00:00"
+    "until": "2026-11-06T00:00"
   },
   {
     "type": "text",
     "title": "הידעת?",
-    "body": "בשחרית סומכים גאל ישראל לתפילה בלי הפסק. בערבית אין מדקדקים כל כך, ולכן אומרים השכיבנו וגם חצי קדיש.",
+    "body": "הקדיש עוסק בכבוד שמים, ולכן אסור לפטפט בשעה שאומרים אותו.",
     "seconds": 15
   },
   {
@@ -57,10 +143,36 @@
     "seconds": 15
   },
   {
+    "type": "image",
+    "src": "media/m26-r-w4-kids2-a.jpg",
+    "seconds": 15,
+    "from": "2026-11-06T00:00",
+    "until": "2026-11-09T00:00"
+  },
+  {
     "type": "text",
     "title": "הידעת?",
-    "body": "משעת חצות היום צריך להיזהר ממלאכות ארוכות שעלולות לגרום לשכוח להתפלל מנחה.",
+    "body": "אחר שמונה עשרה ותחנונים אומרים חצי קדיש, ואחר קדושה דסדרא קדיש תתקבל.",
     "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w4-adult2-q.jpg",
+    "seconds": 15,
+    "from": "2026-11-02T00:00",
+    "until": "2026-11-05T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w4-adult2-a.jpg",
+    "seconds": 15,
+    "from": "2026-11-05T00:00",
+    "until": "2026-11-08T00:00"
   },
   {
     "type": "halacha",

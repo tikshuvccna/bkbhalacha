@@ -8,9 +8,60 @@
   },
   {
     "type": "image",
-    "src": "media/m26-r-w1-kids-a.jpg",
+    "src": "media/m26-cx-mincha-1.jpg",
     "seconds": 15,
-    "from": "2026-10-14T00:00",
+    "from": "2026-10-07T00:00",
+    "until": "2026-10-14T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-cx-mincha-2.jpg",
+    "seconds": 15,
+    "from": "2026-10-07T00:00",
+    "until": "2026-10-14T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-cx-mincha-3.jpg",
+    "seconds": 15,
+    "from": "2026-10-07T00:00",
+    "until": "2026-10-14T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "בראש חודש היו רגילים להקביל את פני הרב, כפי שנוהגים בשבת לומר לרב שבת שלום.",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-s-rosh-chodesh.jpg",
+    "seconds": 15,
+    "from": "2026-10-10T18:00",
+    "until": "2026-10-13T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-mi-avot-4-1.jpg",
+    "seconds": 15,
+    "from": "2026-10-11T00:00",
+    "until": "2026-10-18T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-sh-b.jpg",
+    "seconds": 15,
+    "from": "2026-10-16T12:00",
     "until": "2026-10-18T00:00"
   },
   {
@@ -20,10 +71,46 @@
   },
   {
     "type": "image",
+    "src": "media/m26-r-w1-kids-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-14T00:00",
+    "until": "2026-10-18T00:00"
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "ראש חודש חשוון הוא יומיים: ל' בתשרי וא' בחשוון, כי תשרי הוא חודש מלא בן שלושים יום.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-s-vten-tal.jpg",
+    "seconds": 15,
+    "from": "2026-10-16T00:00",
+    "until": "2026-10-19T00:00"
+  },
+  {
+    "type": "image",
     "src": "media/m26-r-w1-adult-q.jpg",
     "seconds": 15,
     "from": "2026-10-11T00:00",
     "until": "2026-10-16T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "בארץ ישראל מבקשים גשם מליל ז' בחשוון. בחוץ לארץ מבקשים רק מיום שישים לתקופה, ב-4 או 5 בדצמבר.",
+    "seconds": 15
   },
   {
     "type": "image",
@@ -38,15 +125,32 @@
     "seconds": 15
   },
   {
-    "type": "image",
-    "src": "media/m26-s-rosh-chodesh.jpg",
-    "seconds": 15,
-    "from": "2026-10-10T18:00",
-    "until": "2026-10-13T00:00"
+    "type": "text",
+    "title": "הידעת?",
+    "body": "מי שהסתפק אם אמר ותן טל ומטר כראוי בתוך שלושים יום מהחלפת הנוסח, מן הסתם טעה וחוזר. אחרי שלושים יום, אינו חוזר.",
+    "seconds": 15
   },
   {
     "type": "image",
-    "src": "media/m26-s-vten-tal.jpg",
+    "src": "media/m26-r-w1-kids2-q.jpg",
+    "seconds": 15,
+    "from": "2026-10-13T00:00",
+    "until": "2026-10-16T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "בית הדין היה מקדש את החודש לפי עדים שראו את הלבנה. מארץ ישראל יצאו שליחים להודיע לגולה מתי נתקדש החודש.",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w1-kids2-a.jpg",
     "seconds": 15,
     "from": "2026-10-16T00:00",
     "until": "2026-10-19T00:00"
@@ -59,13 +163,49 @@
   {
     "type": "text",
     "title": "הידעת?",
-    "body": "בראש חודש היו רגילים להקביל את פני הרב, כפי שנוהגים בשבת לומר לרב שבת שלום.",
+    "body": "נשים רבות נוהגות להימנע ממלאכה בראש חודש, כי לא חטאו בחטא העגל.",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w1-adult2-q.jpg",
+    "seconds": 15,
+    "from": "2026-10-12T00:00",
+    "until": "2026-10-15T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
     "seconds": 15
   },
   {
     "type": "text",
     "title": "הידעת?",
-    "body": "ראש חודש חשוון הוא יומיים: ל' בתשרי וא' בחשוון, כי תשרי הוא חודש מלא בן שלושים יום.",
+    "body": "ערב ראש חודש נקרא יום כיפור קטן, כי הוא זמן כפרה על החודש שעבר.",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w1-adult2-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-15T00:00",
+    "until": "2026-10-18T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "בראש חודש אומרים יעלה ויבוא גם בברכת המזון, בברכת רחם.",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "ההלל בראש חודש הוא מנהג, ולכן מדלגים על שני חלקים מתוכו.",
     "seconds": 15
   },
   {
@@ -76,18 +216,7 @@
   {
     "type": "text",
     "title": "הידעת?",
-    "body": "בארץ ישראל מבקשים גשם מליל ז' בחשוון. בחוץ לארץ מבקשים רק מיום שישים לתקופה, ב-4 או 5 בדצמבר.",
-    "seconds": 15
-  },
-  {
-    "type": "text",
-    "title": "הידעת?",
-    "body": "מי שהסתפק אם אמר ותן טל ומטר כראוי בתוך שלושים יום מהחלפת הנוסח, מן הסתם טעה וחוזר. אחרי שלושים יום, אינו חוזר.",
-    "seconds": 15
-  },
-  {
-    "type": "halacha",
-    "file": "month_pool.txt",
+    "body": "ברכת הלבנה נחשבת כמעין קבלת פני שכינה.",
     "seconds": 15
   },
   {

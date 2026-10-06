@@ -8,53 +8,10 @@
   },
   {
     "type": "image",
-    "src": "media/m26-r-w2-kids-a.jpg",
-    "seconds": 15,
-    "from": "2026-10-21T00:00",
-    "until": "2026-10-25T00:00"
-  },
-  {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
-  },
-  {
-    "type": "image",
-    "src": "media/m26-r-w2-adult-q.jpg",
-    "seconds": 15,
-    "from": "2026-10-18T00:00",
-    "until": "2026-10-23T00:00"
-  },
-  {
-    "type": "image",
-    "src": "media/m26-r-w2-adult-a.jpg",
-    "seconds": 15,
-    "from": "2026-10-23T00:00",
-    "until": "2026-10-25T00:00"
-  },
-  {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
-  },
-  {
-    "type": "image",
-    "src": "media/m26-s-vten-tal.jpg",
-    "seconds": 15,
-    "from": "2026-10-16T00:00",
-    "until": "2026-10-19T00:00"
-  },
-  {
-    "type": "image",
     "src": "media/m26-c-1.jpg",
     "seconds": 15,
     "from": "2026-10-19T00:00",
     "until": "2026-10-26T00:00"
-  },
-  {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
   },
   {
     "type": "image",
@@ -77,6 +34,43 @@
   },
   {
     "type": "text",
+    "title": "הידעת?",
+    "body": "כדי שלא לטעות בנוסח החדש, טוב להרגיל את הלשון ולומר אותו תשעים פעם ביום ההחלפה.",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-s-vten-tal.jpg",
+    "seconds": 15,
+    "from": "2026-10-16T00:00",
+    "until": "2026-10-19T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-mi-avot-1-12.jpg",
+    "seconds": 15,
+    "from": "2026-10-18T00:00",
+    "until": "2026-10-25T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-sh-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-23T12:00",
+    "until": "2026-10-25T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
     "title": "תודה מכל הלב",
     "body": "לחיים, הגבאי שלנו, על הדאגה היומיומית לבית הכנסת ולמתפללים. מעריכים אותך מאוד!",
     "seconds": 15,
@@ -84,10 +78,11 @@
     "until": "2026-10-21T00:00"
   },
   {
-    "type": "text",
-    "title": "הידעת?",
-    "body": "כדי שלא לטעות בנוסח החדש, טוב להרגיל את הלשון ולומר אותו תשעים פעם ביום ההחלפה.",
-    "seconds": 15
+    "type": "image",
+    "src": "media/m26-r-w2-kids-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-21T00:00",
+    "until": "2026-10-25T00:00"
   },
   {
     "type": "halacha",
@@ -101,14 +96,117 @@
     "seconds": 15
   },
   {
+    "type": "image",
+    "src": "media/m26-r-w2-adult-q.jpg",
+    "seconds": 15,
+    "from": "2026-10-18T00:00",
+    "until": "2026-10-23T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
     "type": "text",
     "title": "הידעת?",
     "body": "בקריאת התורה העולה הראשון כהן, השני לוי והשלישי ישראל, מפני דרכי שלום.",
     "seconds": 15
   },
   {
+    "type": "image",
+    "src": "media/m26-r-w2-adult-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-23T00:00",
+    "until": "2026-10-25T00:00"
+  },
+  {
     "type": "halacha",
     "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "אסור לעבור בתוך ארבע אמותיו של אומר קדיש, כשם שאסור לעבור בתוך ארבע אמותיו של המתפלל.",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w2-kids2-q.jpg",
+    "seconds": 15,
+    "from": "2026-10-20T00:00",
+    "until": "2026-10-23T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "מי שהגיע באיחור ופספס ברכו, החזן חוזר ואומר ברכו אחר התפילה, והקהל עונה.",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w2-kids2-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-23T00:00",
+    "until": "2026-10-26T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "לדעת רבי יהודה זמן מנחה מסתיים בפלג המנחה, שעה ורבע לפני סוף היום.",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w2-adult2-q.jpg",
+    "seconds": 15,
+    "from": "2026-10-19T00:00",
+    "until": "2026-10-22T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "זמן מנחה גדולה מתחיל כחצי שעה אחר חצות היום, וזמן מנחה קטנה כשלוש שעות לפני סוף היום.",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w2-adult2-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-22T00:00",
+    "until": "2026-10-25T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "מי ששכח מנחה בערב שבת מתפלל ערבית של שבת פעמיים.",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "והוא רחום יכפר עוון נאמר בערבית בימי חול בלבד, ולא בשבת וביום טוב.",
     "seconds": 15
   },
   {

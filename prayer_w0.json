@@ -8,10 +8,79 @@
   },
   {
     "type": "image",
+    "src": "media/m26-cx-mincha-1.jpg",
+    "seconds": 15,
+    "from": "2026-10-07T00:00",
+    "until": "2026-10-14T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-cx-mincha-2.jpg",
+    "seconds": 15,
+    "from": "2026-10-07T00:00",
+    "until": "2026-10-14T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-cx-mincha-3.jpg",
+    "seconds": 15,
+    "from": "2026-10-07T00:00",
+    "until": "2026-10-14T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "תפילת המנחה היא התפילה שבה נענה אליהו הנביא בהר הכרמל, ולכן אמרו חכמים להיזהר בה במיוחד.",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-s-rosh-chodesh.jpg",
+    "seconds": 15,
+    "from": "2026-10-10T18:00",
+    "until": "2026-10-13T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-mi-avot-1-2.jpg",
+    "seconds": 15,
+    "from": "2026-10-06T00:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-sh-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
     "src": "media/m26-r-w0-kids-a.jpg",
     "seconds": 15,
     "from": "2026-10-08T00:00",
     "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "ערבית נתקנה על ידי יעקב אבינו, ובמקור היא רשות. עם הזמן קיבלו עליה כל ישראל כחובה.",
+    "seconds": 15
   },
   {
     "type": "halacha",
@@ -26,42 +95,6 @@
     "until": "2026-10-09T00:00"
   },
   {
-    "type": "image",
-    "src": "media/m26-r-w0-adult-a.jpg",
-    "seconds": 15,
-    "from": "2026-10-09T00:00",
-    "until": "2026-10-11T00:00"
-  },
-  {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
-  },
-  {
-    "type": "image",
-    "src": "media/m26-s-rosh-chodesh.jpg",
-    "seconds": 15,
-    "from": "2026-10-10T18:00",
-    "until": "2026-10-13T00:00"
-  },
-  {
-    "type": "text",
-    "title": "הידעת?",
-    "body": "תפילת המנחה היא התפילה שבה נענה אליהו הנביא בהר הכרמל, ולכן אמרו חכמים להיזהר בה במיוחד.",
-    "seconds": 15
-  },
-  {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
-  },
-  {
-    "type": "text",
-    "title": "הידעת?",
-    "body": "ערבית נתקנה על ידי יעקב אבינו, ובמקור היא רשות. עם הזמן קיבלו עליה כל ישראל כחובה.",
-    "seconds": 15
-  },
-  {
     "type": "text",
     "title": "הידעת?",
     "body": "קוראים בתורה בשני, בחמישי ובשבת כדי שלא יעברו שלושה ימים בלא תורה. התורה נמשלה למים, והמים מחיים.",
@@ -70,6 +103,91 @@
   {
     "type": "halacha",
     "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w0-adult-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-09T00:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "ספר תורה כשר נכתב לשם שמים בדיו על קלף, כפי שכתב משה רבנו את ספר התורה הראשון.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w0-kids2-q.jpg",
+    "seconds": 15,
+    "from": "2026-10-06T00:00",
+    "until": "2026-10-09T00:00"
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "מי שאומר תהילה לדוד שלוש פעמים בכל יום, מובטח לו שהוא בן העולם הבא.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w0-kids2-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-09T00:00",
+    "until": "2026-10-12T00:00"
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "קדושה דסדרא נאמרת גם בארמית, כדי שכל העם, שהיה רגיל בארמית, יבין את הפסוקים.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w0-adult2-q.jpg",
+    "seconds": 15,
+    "from": "2026-10-05T00:00",
+    "until": "2026-10-08T00:00"
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "שיר של יום הוא השיר שאמרו הלוויים בבית המקדש אחר הקרבת קרבן התמיד.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w0-adult2-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-08T00:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "פיטום הקטורת נאמר כנגד הקטורת שהקטירו בבית המקדש בכל בוקר וערב.",
     "seconds": 15
   },
   {
