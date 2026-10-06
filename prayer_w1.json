@@ -33,9 +33,21 @@
     "seconds": 15
   },
   {
+    "type": "image",
+    "src": "media/m26-nv-w1-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-11T00:00",
+    "until": "2026-10-14T00:00"
+  },
+  {
     "type": "text",
     "title": "הידעת?",
     "body": "בראש חודש היו רגילים להקביל את פני הרב, כפי שנוהגים בשבת לומר לרב שבת שלום.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
     "seconds": 15
   },
   {
@@ -46,16 +58,16 @@
     "until": "2026-10-13T00:00"
   },
   {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
-  },
-  {
     "type": "image",
     "src": "media/m26-mi-avot-4-1.jpg",
     "seconds": 15,
     "from": "2026-10-11T00:00",
     "until": "2026-10-18T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
   },
   {
     "type": "image",
@@ -65,13 +77,21 @@
     "until": "2026-10-18T00:00"
   },
   {
+    "type": "image",
+    "src": "media/m26-r-w1-kids-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-14T00:00",
+    "until": "2026-10-18T00:00"
+  },
+  {
     "type": "halacha",
     "file": "month_pool.txt",
     "seconds": 15
   },
   {
-    "type": "image",
-    "src": "media/m26-r-w1-kids-a.jpg",
+    "type": "text",
+    "title": "מה לא הגיוני בתמונה?",
+    "body": "התשובה: בראש חודש הלבנה רק מתחדשת: היא דקה וכמעט לא נראית, ולא מלאה. לכן יש הממתינים לברך עליה עד שתגדל מעט. (פניני הלכה, זמנים א, יח)",
     "seconds": 15,
     "from": "2026-10-14T00:00",
     "until": "2026-10-18T00:00"
@@ -107,9 +127,21 @@
     "seconds": 15
   },
   {
+    "type": "image",
+    "src": "media/m26-nv-w1-b.jpg",
+    "seconds": 15,
+    "from": "2026-10-13T00:00",
+    "until": "2026-10-16T00:00"
+  },
+  {
     "type": "text",
     "title": "הידעת?",
     "body": "בארץ ישראל מבקשים גשם מליל ז' בחשוון. בחוץ לארץ מבקשים רק מיום שישים לתקופה, ב-4 או 5 בדצמבר.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
     "seconds": 15
   },
   {
@@ -118,6 +150,14 @@
     "seconds": 15,
     "from": "2026-10-16T00:00",
     "until": "2026-10-18T00:00"
+  },
+  {
+    "type": "text",
+    "title": "מה לא הגיוני בתמונה?",
+    "body": "התשובה: בזמן המבול התיבה צפה על פני המים, כשהגשם יורד ארבעים יום וארבעים לילה. בתמונה היא עומדת על חול יבש מתחת לשמש. (בראשית ז, יב ו-יח)",
+    "seconds": 15,
+    "from": "2026-10-16T00:00",
+    "until": "2026-10-20T00:00"
   },
   {
     "type": "halacha",

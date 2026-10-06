@@ -33,9 +33,21 @@
     "seconds": 15
   },
   {
+    "type": "image",
+    "src": "media/m26-nv-w2-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-18T00:00",
+    "until": "2026-10-21T00:00"
+  },
+  {
     "type": "text",
     "title": "הידעת?",
     "body": "כדי שלא לטעות בנוסח החדש, טוב להרגיל את הלשון ולומר אותו תשעים פעם ביום ההחלפה.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
     "seconds": 15
   },
   {
@@ -46,11 +58,6 @@
     "until": "2026-10-19T00:00"
   },
   {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
-  },
-  {
     "type": "image",
     "src": "media/m26-mi-avot-1-12.jpg",
     "seconds": 15,
@@ -58,16 +65,16 @@
     "until": "2026-10-25T00:00"
   },
   {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
     "type": "image",
     "src": "media/m26-sh-a.jpg",
     "seconds": 15,
     "from": "2026-10-23T12:00",
     "until": "2026-10-25T00:00"
-  },
-  {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
   },
   {
     "type": "text",
@@ -78,8 +85,21 @@
     "until": "2026-10-21T00:00"
   },
   {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
     "type": "image",
     "src": "media/m26-r-w2-kids-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-21T00:00",
+    "until": "2026-10-25T00:00"
+  },
+  {
+    "type": "text",
+    "title": "מה לא הגיוני בתמונה?",
+    "body": "התשובה: כוכבים רואים בלילה, ובתמונה הם מנצנצים בצהריים בשמיים כחולים ומלאי שמש. ה' אמר לאברהם: הבט נא השמימה וספור הכוכבים, אם תוכל לספור אותם. (בראשית טו, ה)",
     "seconds": 15,
     "from": "2026-10-21T00:00",
     "until": "2026-10-25T00:00"
@@ -108,9 +128,21 @@
     "seconds": 15
   },
   {
+    "type": "image",
+    "src": "media/m26-nv-w2-b.jpg",
+    "seconds": 15,
+    "from": "2026-10-20T00:00",
+    "until": "2026-10-23T00:00"
+  },
+  {
     "type": "text",
     "title": "הידעת?",
     "body": "בקריאת התורה העולה הראשון כהן, השני לוי והשלישי ישראל, מפני דרכי שלום.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
     "seconds": 15
   },
   {
@@ -119,6 +151,14 @@
     "seconds": 15,
     "from": "2026-10-23T00:00",
     "until": "2026-10-25T00:00"
+  },
+  {
+    "type": "text",
+    "title": "מה לא הגיוני בתמונה?",
+    "body": "התשובה: ברכת הלבנה נאמרת בלילה, כשהלבנה נראית ונהנים מאורה, ולא בצהריים כשהשמש זורחת. נוהגים לברך במוצאי שבת, בשמחה. (פניני הלכה, זמנים א, יז-יח)",
+    "seconds": 15,
+    "from": "2026-10-23T00:00",
+    "until": "2026-10-27T00:00"
   },
   {
     "type": "halacha",

@@ -33,9 +33,21 @@
     "seconds": 15
   },
   {
+    "type": "image",
+    "src": "media/m26-nv-w4-a.jpg",
+    "seconds": 15,
+    "from": "2026-11-01T00:00",
+    "until": "2026-11-04T00:00"
+  },
+  {
     "type": "text",
     "title": "הידעת?",
     "body": "בשחרית סומכים גאל ישראל לתפילה בלי הפסק. בערבית אין מדקדקים כל כך, ולכן אומרים השכיבנו וגם חצי קדיש.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
     "seconds": 15
   },
   {
@@ -46,16 +58,16 @@
     "until": "2026-11-10T00:00"
   },
   {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
-  },
-  {
     "type": "image",
     "src": "media/m26-sh-a.jpg",
     "seconds": 15,
     "from": "2026-11-06T12:00",
     "until": "2026-11-08T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
   },
   {
     "type": "text",
@@ -66,16 +78,24 @@
     "until": "2026-11-04T00:00"
   },
   {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
-  },
-  {
     "type": "image",
     "src": "media/m26-r-w4-kids-a.jpg",
     "seconds": 15,
     "from": "2026-11-04T00:00",
     "until": "2026-11-10T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "מה לא הגיוני בתמונה?",
+    "body": "התשובה: ערבית מתפללים בלילה, מצאת הכוכבים, ולא בצהריים באור יום. (פניני הלכה, תפילה כה, ה)",
+    "seconds": 15,
+    "from": "2026-11-04T00:00",
+    "until": "2026-11-08T00:00"
   },
   {
     "type": "text",
