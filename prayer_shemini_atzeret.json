@@ -1,0 +1,126 @@
+[
+  {
+    "type": "image",
+    "src": "media/sa-greeting.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "shemini_atzeret.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/sa-kids-q.jpg",
+    "seconds": 15,
+    "until": "2026-10-03T17:45"
+  },
+  {
+    "type": "image",
+    "src": "media/sa-kids-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-03T17:45"
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "בשמחת תורה נוהגים להעלות לתורה את כל המתפללים, להראות שלכל אחד מישראל יש חלק בתורה, בין זקן בין צעיר, בין חכם בין תם.",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/st-wishes.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/sa-adult-q.jpg",
+    "seconds": 15,
+    "until": "2026-10-03T17:45"
+  },
+  {
+    "type": "image",
+    "src": "media/sa-adult-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-03T17:45"
+  },
+  {
+    "type": "halacha",
+    "file": "shemini_atzeret.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/st-kids-q2.jpg",
+    "seconds": 15,
+    "until": "2026-10-03T17:45"
+  },
+  {
+    "type": "image",
+    "src": "media/st-kids-a2.jpg",
+    "seconds": 15,
+    "from": "2026-10-03T17:45"
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "הקטנים עולים לתורה יחד בעליית 'כל הנערים': אחד מנכבדי הקהל מברך לאט ובקול, והילדים חוזרים אחריו מילה במילה.",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/st-thanks.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "shemini_atzeret.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/st-adult-q2.jpg",
+    "seconds": 15,
+    "until": "2026-10-03T17:45"
+  },
+  {
+    "type": "image",
+    "src": "media/st-adult-a2.jpg",
+    "seconds": 15,
+    "from": "2026-10-03T17:45"
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "בשמחת תורה מקיפים שבע הקפות בלילה ושבע ביום, ומוציאים את כל ספרי התורה מהארון. ומעבר להקפות, מרבים בריקודים לכבוד התורה!",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "shemini_atzeret.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "במוסף של שמיני עצרת מתחילים להזכיר 'משיב הרוח ומוריד הגשם', ואת בקשת הגשמים מתחילים רק בליל ז' בחשוון.",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "שנה טובה!",
+    "body": "תודה לחיים, הגבאי שלנו, לכל הגבאים ולכל המתפללים. שתהיה לכולנו שנה של תורה, שמחה וברכה!",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "shemini_atzeret.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "כדי שנסיים את כל התורה בשנה אחת, קוראים בכמה שבתות שתי פרשיות יחד, ובשנה מעוברת קוראים בכל שבת פרשה אחת.",
+    "seconds": 15
+  }
+]

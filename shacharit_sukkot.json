@@ -1,0 +1,71 @@
+[
+  {
+    "type": "image",
+    "src": "media/sukkot-greeting.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "sukkot.txt",
+    "seconds": 60
+  },
+  {
+    "type": "image",
+    "src": "media/sukkot-riddle.jpg",
+    "seconds": 15,
+    "until": "2026-09-26T17:55"
+  },
+  {
+    "type": "halacha",
+    "file": "sukkot.txt",
+    "seconds": 60
+  },
+  {
+    "type": "image",
+    "src": "media/sukkot-comic1.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/sukkot-comic2.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/sukkot-comic3.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/sukkot-comic4.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "sukkot.txt",
+    "seconds": 60
+  },
+  {
+    "type": "image",
+    "src": "media/sukkot-answer.jpg",
+    "seconds": 15,
+    "from": "2026-09-26T17:55"
+  },
+  {
+    "type": "image",
+    "src": "media/adult-shabbat-q.jpg",
+    "seconds": 15,
+    "until": "2026-09-26T17:55"
+  },
+  {
+    "type": "halacha",
+    "file": "sukkot.txt",
+    "seconds": 60
+  },
+  {
+    "type": "image",
+    "src": "media/adult-shabbat-a.jpg",
+    "seconds": 15,
+    "from": "2026-09-26T17:55"
+  }
+]

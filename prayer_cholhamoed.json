@@ -1,0 +1,155 @@
+[
+  {
+    "type": "image",
+    "src": "media/cholhamoed-moadim.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "sukkot.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/cholhamoed-riddle1.jpg",
+    "seconds": 15,
+    "until": "2026-09-29T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/cholhamoed-answer1.jpg",
+    "seconds": 15,
+    "from": "2026-09-29T00:00",
+    "until": "2026-10-01T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/cholhamoed-riddle2.jpg",
+    "seconds": 15,
+    "from": "2026-09-29T00:00",
+    "until": "2026-10-01T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/cholhamoed-answer2.jpg",
+    "seconds": 15,
+    "from": "2026-10-01T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "sukkot.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "בפסוקי חג הסוכות נאמרה שמחה שלוש פעמים, כי הוא חג האסיף: אחרי איסוף התבואה והפירות, ואחרי ימי התשובה והכפרה.",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/cholhamoed-rain1.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/cholhamoed-rain2.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/cholhamoed-rain3.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "sukkot.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/adult-tishrei-q.jpg",
+    "seconds": 15,
+    "until": "2026-09-29T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/adult-tishrei-a.jpg",
+    "seconds": 15,
+    "from": "2026-09-29T00:00",
+    "until": "2026-10-01T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/adult-geshem-q.jpg",
+    "seconds": 15,
+    "from": "2026-09-29T00:00",
+    "until": "2026-10-01T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/adult-geshem-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-01T00:00"
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "ההקפות בסוכות הן זכר להקפות סביב המזבח, ואלה נתקנו זכר להקפות סביב יריחו בימי יהושע: פעם אחת בכל יום, ושבע פעמים ביום השביעי.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "sukkot.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/cholhamoed-mishna.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "גם שיחה עם חבר, ואפילו בטלפון, טוב לעשות בסוכה, שכל אימת שאדם נמצא בסוכה יש בידו מצווה.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "sukkot.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "את הבקשה על הגשמים דחו חכמים עד ז' בחשוון, כדי שאחרון עולי הרגל, שבא מנהר פרת, יספיק לחזור לביתו בלי שירד עליו גשם.",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "הושענא רבה נחשב למועד דין שלישי, אחרי ראש השנה ויום הכיפורים, ולכן נכון לחזור בו בתשובה ולהרבות בתפילה.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "sukkot.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "תודה מכל הלב",
+    "body": "לחיים, הגבאי שלנו, על המסירות והדאגה לבית הכנסת ולמתפללים לאורך כל החג. מעריכים אותך מאוד! חג שמח",
+    "seconds": 15,
+    "from": "2026-09-28T00:00",
+    "until": "2026-09-29T00:00"
+  },
+  {
+    "type": "text",
+    "title": "תודה מכל הלב",
+    "body": "לבני היקר, על הכבוד, ההשתדלות והלב הטוב תמיד. מעריכים אותך! חג שמח",
+    "seconds": 15,
+    "from": "2026-09-30T00:00",
+    "until": "2026-10-01T00:00"
+  }
+]

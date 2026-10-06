@@ -1,0 +1,76 @@
+{
+  "playlists": [
+    {
+      "name": "הפתעות בזמני התפילה – חול המועד סוכות",
+      "when": "prayer",
+      "items": "prayer_cholhamoed.json",
+      "from": "2026-09-27T00:00",
+      "until": "2026-10-02T16:00"
+    },
+    {
+      "name": "הפתעות בזמני התפילה – שמיני עצרת ושמחת תורה",
+      "when": "prayer",
+      "items": "prayer_shemini_atzeret.json",
+      "from": "2026-10-02T16:00",
+      "until": "2026-10-03T21:00"
+    },
+    {
+      "name": "שמיני עצרת ושמחת תורה – הלכות",
+      "file": "shemini_atzeret.txt",
+      "from": "2026-10-02T17:30",
+      "until": "2026-10-03T19:30",
+      "interval_sec": 60
+    },
+    {
+      "name": "חג הסוכות",
+      "file": "sukkot.txt",
+      "from": "2026-09-25T00:00",
+      "until": "2026-10-03T19:30",
+      "interval_sec": 60
+    },
+    {
+      "name": "תפילה בחורף – הזכרת גשמים ושאלתם",
+      "file": "tefila_winter.txt",
+      "from": "2026-10-03T19:30",
+      "until": "2026-11-18T00:00",
+      "interval_sec": 60
+    }
+  ],
+  "prayer": {
+    "_note": "זמני התפילה לפי תל אביב. yomtov = ימים שנוהגים בהם כשבת; late_shacharit = חול המועד וימי חופשה (שחרית 07:00)",
+    "lat": 32.0853,
+    "lon": 34.7818,
+    "margin_min": 15,
+    "shabbat_entry_before_sunset_min": 20,
+    "shabbat_exit_after_sunset_min": 40,
+    "weekday_shacharit": [
+      "06:00",
+      "07:00"
+    ],
+    "late_shacharit_time": [
+      "07:00",
+      "08:00"
+    ],
+    "shabbat_shacharit": [
+      "08:30",
+      "11:00"
+    ],
+    "yomtov": [
+      "2026-09-26",
+      "2026-10-03"
+    ],
+    "late_shacharit": [
+      "2026-09-27",
+      "2026-09-28",
+      "2026-09-29",
+      "2026-09-30",
+      "2026-10-01",
+      "2026-10-02"
+    ],
+    "tzeit_after_sunset_min": 21
+  },
+  "display": {
+    "_note": "visible_ratio: גובה החלק הנראה בנגן ביחס לרוחב. 27/09 הגבאי הגדיל את החלון – 0.5625 = תמונת 16:9 ברוחב מלא",
+    "visible_ratio": 0.5625
+  }
+}

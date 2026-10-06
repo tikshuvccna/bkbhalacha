@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>הלכה יומית</title>
+
+  <style>
+    :root{
+      --bg:#3A5783;
+      --fg:#ffffff;
+      --accent:#FFD54A;
+      --maxw: 1400px;
+      --font: "Assistant", Arial, sans-serif;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: var(--font);
+      overflow: hidden;
+    }
+
+    .wrap{
+      min-height: 100%;
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+      padding: 0.6vh 1.2vw;
+      box-sizing:border-box;
+    }
+
+    .box{
+      width:100%;
+      max-width: var(--maxw);
+      text-align: center;
+    }
+
+    .headline{
+      font-family: var(--font);
+      font-weight: 800;
+      color: var(--accent);
+      font-size: clamp(28px, 6vw, 110px);
+      line-height: 1.02;
+      margin: 0 0 0.6vh 0;
+      padding: 0;
+      white-space: pre-wrap;
+    }
+
+    .body{
+      font-family: var(--font);
+      font-weight: 400;
+      color: var(--fg);
+      font-size: clamp(22px, 4.8vw, 88px);
+      line-height: 1.08;
+      margin: 0;
+      padding: 0;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    /* תמונה בחלק הנראה של החלון, בלי חיתוך.
+       בנגן במסך רק החלק העליון של הדף נראה (כ-730x265), ולכן התמונה צמודה למעלה,
+       וגובהה נקבע כיחס מהרוחב (--visible-ratio, ניתן לשינוי ב-schedule.json → display) */
+    :root{ --visible-ratio: 0.36; }
+    .slide{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: calc(100vw * var(--visible-ratio));
+      object-fit: contain;
+      object-position: center top;
+      background: var(--bg);
+    }
+
+    .placeholder{
+      font-family: var(--font);
+      font-size: clamp(18px, 2.2vw, 34px);
+      margin: 0;
+      line-height: 1.2;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="box">
+      <div id="content"></div>
+    </div>
+  </div>
+
+  <script>
+    // ====== CONFIG ======
+    const TXT_PATH = "./halacha_1.txt";
+
+    // שעות לפי ישראל
+    const TZ = "Asia/Jerusalem";
+
+    // מ-08:00 והלאה: קובץ
+    const FILE_START_HOUR = 8;
+
+    // תדירות בדיקה (לא מרענן דף, רק מחליף תצוגה כשצריך)
+    const TICK_MS = 5 * 1000;
+
+    // לוח תוכן מיוחד (חגים וכו'): קובץ עם חלונות זמן, גובר על halacha_1.txt
+    const SCHEDULE_PATH = "./schedule.json";
+    const SCHEDULE_RELOAD_MS = 10 * 60 * 1000;
+
+    // ברירת מחדל (עד שהכול נטען / אם אין נתונים)
+    const FALLBACK_TEXT =
+`הלכה יומית - כיבוד הורים וחינוך.
+שתי מצוות מרכזיות ישנן בתורה ביחס להורים וביחס לבנים. האחת מצוות כיבוד הורים, שמפאת חשיבותה נזכרה בעשרת הדיברות. והשנייה, מצוות חינוך הילדים, שהיא בעצם חלק מרכזי ממצוות תלמוד תורה, שעליה אמרו חכמים שהיא שקולה כנגד כל המצוות כולן.`;
+
+    // ====== STATE ======
+    let fileHalachot = [];         // [{title, body, raw}]
+    let lastModeShown = null;      // "playlist" | "file"
+    let lastShownKey = null;       // למניעת רינדור חוזר
+    let schedule = [];             // [{file, from, until, interval_sec}]
+    const playlistCache = {};      // file -> [{title, body, raw}]
+
+    // localStorage keys
+    const LS_INDEX = "halacha_file_index_v1";
+    const LS_LAST_HOUR_START = "halacha_file_last_hour_start_v1";
+
+    // ====== HELPERS: TIME IN TZ ======
+    function nowPartsInTZ(){
+      const dtf = new Intl.DateTimeFormat("en-CA", {
+        timeZone: TZ,
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: false
+      });
+
+      const parts = dtf.formatToParts(new Date());
+      const get = (type) => parts.find(p => p.type === type)?.value;
+
+      const y = parseInt(get("year"), 10);
+      const m = parseInt(get("month"), 10);
+      const d = parseInt(get("day"), 10);
+      const hh = parseInt(get("hour"), 10);
+      const mm = parseInt(get("minute"), 10);
+      const ss = parseInt(get("second"), 10);
+
+      return { y, m, d, hh, mm, ss };
+    }
+
+    function hourStartKeyInTZ(){
+      // מפתח לשעה נוכחית: YYYY-MM-DD-HH (בישראל)
+      const { y, m, d, hh } = nowPartsInTZ();
+      const mm2 = String(m).padStart(2, "0");
+      const dd2 = String(d).padStart(2, "0");
+      const hh2 = String(hh).padStart(2, "0");
+      return `${y}-${mm2}-${dd2}-${hh2}`;
+    }
+
+    function hourStartKeyApprox(){
+      // נשמור את ה-key עצמו ונעדכן בהפרש לפי מעבר שעה (tick כל דקה -> מספיק).
+      return hourStartKeyInTZ();
+    }
+
+    // ====== PARSING ======
+    function parseFile(text){
+      // מפצל לפי שורה ריקה
+      const blocks = text
+        .replace(/\r\n/g, "\n")
+        .split(/\n\s*\n+/)
+        .map(s => s.trim())
+        .filter(Boolean);
+
+      const out = [];
+      const marker = "הלכה יומית -";
+
+      for (const block of blocks) {
+        // כל בלוק אמור להתחיל ב"הלכה יומית -"
+        const idx = block.indexOf(marker);
+        const payload = idx >= 0 ? block.slice(idx).trim() : block.trim();
+
+        // כותרת: מה-marker ועד הנקודה הראשונה
+        const dot = payload.indexOf(".");
+        if (dot === -1) {
+          // אין נקודה — נשים הכל ככותרת, בלי גוף
+          out.push({
+            title: payload.replace(marker, "").trim(),
+            body: "",
+            raw: payload
+          });
+          continue;
+        }
+
+        const titlePart = payload.slice(0, dot + 1).trim(); // כולל נקודה
+        const bodyPart  = payload.slice(dot + 1).trim();
+
+        // נשמור כותרת נקייה בלי הנקודה בסוף
+        let cleanTitle = titlePart.replace(marker, "").trim();
+        if (cleanTitle.endsWith(".")) cleanTitle = cleanTitle.slice(0, -1).trim();
+
+        out.push({
+          title: cleanTitle,
+          body: bodyPart,
+          raw: payload
+        });
+      }
+
+      return out;
+    }
+
+    // ====== RENDER ======
+    function renderTitleBody(title, body){
+      renderText("הלכה יומית - " + (title || "").toString().trim(), body);
+    }
+
+    // כותרת צהובה + גוף, בלי הקידומת (לפריטי "הידעת?", תודה וכו')
+    function renderText(headline, body){
+      const container = document.getElementById("content");
+
+      const h = document.createElement("div");
+      h.className = "headline";
+      h.textContent = headline;
+
+      const b = document.createElement("div");
+      b.className = "body";
+      b.textContent = (body || "").toString();
+
+      container.innerHTML = "";
+      container.className = "";
+      container.appendChild(h);
+      container.appendChild(b);
+    }
+
+    function renderFallback(){
+      const payload = FALLBACK_TEXT.trim();
+
+      // כותרת עד הנקודה הראשונה
+      const dot = payload.indexOf(".");
+      let title = "כיבוד הורים וחינוך";
+      let body = payload;
+
+      if (dot !== -1) {
+        const t = payload.slice(0, dot + 1).trim();
+        body = payload.slice(dot + 1).trim();
+
+        // מורידים "הלכה יומית -" אם קיים, ומורידים נקודה
+        title = t.replace(/^הלכה יומית\s*-\s*/,"").replace(/\.$/,"").trim();
+      }
+
+      renderTitleBody(title, body);
+    }
+
+    // ====== LOADERS ======
+    // כל קובץ שנטען נשמר גם בזיכרון הדפדפן. בטעינת הדף מציגים מיד מהזיכרון
+    // (בלי הבהוב של הלכת ברירת המחדל), ואז מתעדכנים מהרשת.
+    const netText = async (path) => {
+      const r = await fetch(path, { cache: "no-store" });
+      if (!r.ok) throw new Error(path);
+      const t = await r.text();
+      lsSet("cache:" + path, t);
+      return t;
+    };
+    const cacheText = async (path) => {
+      const t = lsGet("cache:" + path);
+      if (t === null) throw new Error(path);
+      return t;
+    };
+
+    async function loadFile(getText = netText){
+      try {
+        const parsed = parseFile(await getText(TXT_PATH));
+        return parsed.length ? parsed : null;
+      } catch {
+        return null;
+      }
+    }
+
+    async function loadSchedule(getText = netText){
+      try {
+        const data = JSON.parse(await getText(SCHEDULE_PATH));
+        schedule = Array.isArray(data.playlists) ? data.playlists : [];
+        prayerCfg = data.prayer || null;
+        if (data.display && data.display.visible_ratio) {
+          document.documentElement.style.setProperty("--visible-ratio", data.display.visible_ratio);
+        }
+        const files = new Set();
+        for (const p of schedule) {
+          if (p.file) files.add(p.file);
+          if (p.items) {
+            let items = null;
+            try { items = JSON.parse(await getText("./" + p.items)); } catch {}
+            if (items) {
+              playlistCache[p.items] = items;
+              for (const it of items) {
+                if (it.type === "halacha" && it.file) files.add(it.file);
+                if (it.type === "image" && it.src) new Image().src = "./" + it.src; // טעינה מוקדמת
+              }
+            }
+          }
+        }
+        for (const f of files) {
+          try { playlistCache[f] = parseFile(await getText("./" + f)); } catch {}
+        }
+      } catch {}
+    }
+
+    // "YYYY-MM-DDTHH:MM" בשעון ישראל, להשוואה מול from/until
+    function nowStampInTZ(){
+      const { y, m, d, hh, mm } = nowPartsInTZ();
+      const p = (n) => String(n).padStart(2, "0");
+      return `${y}-${p(m)}-${p(d)}T${p(hh)}:${p(mm)}`;
+    }
+
+    // ====== זמני תפילה (הפתעות) ======
+    // שקיעה / צאת הכוכבים לפי נוסחת השמש הסטנדרטית, למיקום שב-schedule.json (תל אביב)
+    let prayerCfg = null;
+    const RAD = Math.PI / 180;
+    function sunEvening(y, m, d, altDeg, lat, lon){
+      const jd = Date.UTC(y, m - 1, d, 12) / 86400000 + 2440587.5;
+      const n = Math.round(jd - 2451545.0 + 0.0008);
+      const Js = n - lon / 360;
+      const M = (357.5291 + 0.98560028 * Js) % 360;
+      const C = 1.9148 * Math.sin(M * RAD) + 0.02 * Math.sin(2 * M * RAD) + 0.0003 * Math.sin(3 * M * RAD);
+      const L = (M + C + 180 + 102.9372) % 360;
+      const Jt = 2451545.0 + Js + 0.0053 * Math.sin(M * RAD) - 0.0069 * Math.sin(2 * L * RAD);
+      const dec = Math.asin(Math.sin(L * RAD) * Math.sin(23.44 * RAD));
+      const w = Math.acos((Math.sin(altDeg * RAD) - Math.sin(lat * RAD) * Math.sin(dec)) / (Math.cos(lat * RAD) * Math.cos(dec)));
+      return (Jt + w / (2 * Math.PI) - 2440587.5) * 86400000; // ms
+    }
+
+    // שעה מקומית בישראל ("HH:MM") בתאריך נתון -> ms
+    function israelTimeMs(ymd, hhmm){
+      const [y, m, d] = ymd.split("-").map(Number);
+      const [hh, mm] = hhmm.split(":").map(Number);
+      const guess = Date.UTC(y, m - 1, d, hh, mm);
+      const parts = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit",
+        hour: "2-digit", minute: "2-digit", hour12: false }).formatToParts(new Date(guess));
+      const g = (t) => parseInt(parts.find((p) => p.type === t).value, 10);
+      const localAsUtc = Date.UTC(g("year"), g("month") - 1, g("day"), g("hour") % 24, g("minute"));
+      return guess - (localAsUtc - guess); // מתקן לפי ההפרש בין ישראל ל-UTC
+    }
+
+    function ymdShift(ymd, days){
+      const t = new Date(Date.parse(ymd + "T12:00:00Z") + days * 86400000);
+      return t.toISOString().slice(0, 10);
+    }
+
+    // מחזיר true אם עכשיו בתוך אחד מזמני התפילה (כולל מרווח לפני ואחרי)
+    function inPrayerWindow(){
+      const c = prayerCfg;
+      if (!c) return false;
+      const { y, m, d } = nowPartsInTZ();
+      const p2 = (n) => String(n).padStart(2, "0");
+      const today = `${y}-${p2(m)}-${p2(d)}`;
+      const now = Date.now();
+      const margin = (c.margin_min || 15) * 60000;
+      const yomtov = new Set(c.yomtov || []);
+      const late = new Set(c.late_shacharit || []);
+      const dow = (ymd) => new Date(ymd + "T12:00:00Z").getUTCDay(); // 0=ראשון ... 6=שבת
+      const isRest = (ymd) => dow(ymd) === 6 || yomtov.has(ymd);
+      const sunset = (ymd, alt) => { const [a, b, e] = ymd.split("-").map(Number); return sunEvening(a, b, e, alt, c.lat, c.lon); };
+      const entry = (ymd) => sunset(ymd, -0.833) - (c.shabbat_entry_before_sunset_min || 20) * 60000; // כניסת שבת/חג
+      const exit = (ymd) => sunset(ymd, -0.833) + (c.shabbat_exit_after_sunset_min || 40) * 60000; // צאת שבת/חג
+
+      const w = [];
+      if (isRest(today)) {
+        const [s1, s2] = c.shabbat_shacharit || ["08:30", "11:00"];
+        w.push([israelTimeMs(today, s1), israelTimeMs(today, s2)]);
+        // מנחה של שבת: מהשעה של כניסת השבת ועד אחרי צאת השבת
+        const yest = ymdShift(today, -1);
+        const entryClock = entry(yest) + 86400000;
+        w.push([entryClock, exit(today)]);
+      } else {
+        const [s1, s2] = late.has(today) ? (c.late_shacharit_time || ["07:00", "08:00"]) : (c.weekday_shacharit || ["06:00", "07:00"]);
+        w.push([israelTimeMs(today, s1), israelTimeMs(today, s2)]);
+        // מנחה: 10 דקות לפני השקיעה, עד 20 דקות אחרי צאת הכוכבים (ערבית)
+        w.push([sunset(today, -0.833) - 10 * 60000, sunset(today, -0.833) + ((c.tzeit_after_sunset_min || 21) + 20) * 60000]);
+      }
+      // ערב שבת/חג: מכניסת השבת ועוד שעתיים (מנחה + קבלת שבת + ערבית)
+      if (isRest(ymdShift(today, 1))) {
+        const e = entry(today);
+        w.push([e, e + 2 * 3600000]);
+      }
+      return w.some(([a, b]) => now >= a - margin && now <= b + margin);
+    }
+
+    function activePlaylist(){
+      const now = nowStampInTZ();
+      for (const p of schedule) {
+        if (p.when === "prayer" && !inPrayerWindow()) continue;
+        const items = playlistCache[p.items || p.file];
+        if (items && items.length && (!p.from || now >= p.from) && (!p.until || now < p.until)) {
+          return { p, items };
+        }
+      }
+      return null;
+    }
+
+    // ====== FILE INDEX LOGIC (PERSISTENT, HOURLY AFTER 08:00) ======
+    // localStorage עטוף ב-try: בחלק מהנגנים הגישה אליו זורקת שגיאה
+    function lsGet(k){ try { return localStorage.getItem(k); } catch { return null; } }
+    function lsSet(k, v){ try { localStorage.setItem(k, v); } catch {} }
+
+    function getFileIndex(){
+      const v = parseInt(lsGet(LS_INDEX) || "0", 10);
+      return isNaN(v) ? 0 : v;
+    }
+    function setFileIndex(i){
+      lsSet(LS_INDEX, String(i));
+    }
+
+    function getLastHourStartKey(){
+      return lsGet(LS_LAST_HOUR_START) || "";
+    }
+    function setLastHourStartKey(k){
+      lsSet(LS_LAST_HOUR_START, k);
+    }
+
+    function advanceIfNeededForThisHour(){
+      if (!fileHalachot || fileHalachot.length === 0) return;
+
+      const { hh } = nowPartsInTZ();
+      if (hh < FILE_START_HOUR) return;
+
+      const currentKey = hourStartKeyApprox(); // YYYY-MM-DD-HH
+      const lastKey = getLastHourStartKey();
+
+      if (!lastKey) {
+        setLastHourStartKey(currentKey);
+        if (getFileIndex() >= fileHalachot.length) setFileIndex(0);
+        return;
+      }
+
+      if (currentKey === lastKey) return;
+
+      // התקדמות של 1 בכל מעבר שעה שנקלט
+      let idx = getFileIndex();
+      idx = (idx + 1) % fileHalachot.length;
+      setFileIndex(idx);
+      setLastHourStartKey(currentKey);
+    }
+
+    // ====== MIXED PLAYLIST (תמונות + הלכות) ======
+    // items: [{type:"image", src, seconds} | {type:"halacha", file, seconds}]
+    // המיקום בסבב נקבע לפי השעון, כך שכל המסכים מציגים אותו פריט.
+    // כל פריט "halacha" מציג בכל סבב את ההלכה הבאה מהקובץ שלו.
+    function showMixedPlaylist(p, allItems){
+      // פריט יכול להגביל את עצמו לזמן (from/until), למשל תשובה לחידה שמופיעה רק בתפילה הבאה
+      const stamp = nowStampInTZ();
+      const items = allItems.filter((it) => (!it.from || stamp >= it.from) && (!it.until || stamp < it.until));
+      if (!items.length) return;
+      const secs = items.map((it) => Math.max(5, it.seconds || 15));
+      const total = secs.reduce((a, b) => a + b, 0);
+      const now = Math.floor(Date.now() / 1000);
+      const cycle = Math.floor(now / total);
+      let offset = now % total, i = 0;
+      while (offset >= secs[i]) { offset -= secs[i]; i++; }
+
+      const it = items[i];
+      if (it.type === "image") {
+        const key = "img|" + it.src;
+        if (lastShownKey !== key) { renderImage("./" + it.src); lastShownKey = key; }
+      } else if (it.type === "text") {
+        const key = "txt|" + it.title + "|" + it.body;
+        if (lastShownKey !== key) { renderText(it.title, it.body); lastShownKey = key; }
+      } else {
+        const halachot = playlistCache[it.file] || [];
+        if (!halachot.length) return;
+        const slots = items.filter((x) => x.type === "halacha" && x.file === it.file).length;
+        const slot = items.slice(0, i).filter((x) => x.type === "halacha" && x.file === it.file).length;
+        const h = halachot[(cycle * slots + slot) % halachot.length];
+        const key = "mix|" + it.file + "|" + h.raw;
+        if (lastShownKey !== key) { renderTitleBody(h.title, h.body); lastShownKey = key; }
+      }
+      lastModeShown = "playlist";
+    }
+
+    function renderImage(src){
+      const container = document.getElementById("content");
+      const img = document.createElement("img");
+      img.className = "slide";
+      img.src = src;
+      img.alt = "";
+      container.innerHTML = "";
+      container.className = "";
+      container.appendChild(img);
+    }
+
+    // ====== DISPLAY ======
+    function showAccordingToSchedule(){
+      // לוח מיוחד פעיל: מתחלף לפי השעון, כך שכל המסכים מציגים אותו פריט
+      const active = activePlaylist();
+      if (active && active.p.items) {
+        showMixedPlaylist(active.p, active.items);
+        return;
+      }
+      if (active) {
+        const interval = Math.max(10, active.p.interval_sec || 60);
+        const idx = Math.floor(Date.now() / 1000 / interval) % active.items.length;
+        const item = active.items[idx];
+        const key = "playlist|" + active.p.file + "|" + idx;
+        if (lastShownKey !== key) {
+          renderTitleBody(item.title, item.body);
+          lastShownKey = key;
+        }
+        lastModeShown = "playlist";
+        return;
+      }
+
+      // halacha_1.txt
+      if (!fileHalachot || fileHalachot.length === 0) return;
+
+      advanceIfNeededForThisHour();
+
+      let idx = getFileIndex();
+      if (idx < 0 || idx >= fileHalachot.length) idx = 0;
+
+      const item = fileHalachot[idx];
+      const key = "file|" + idx + "|" + item.raw;
+
+      if (lastShownKey !== key) {
+        renderTitleBody(item.title, item.body);
+        lastShownKey = key;
+      }
+      lastModeShown = "file";
+    }
+
+    // ====== INIT ======
+    async function init(){
+      const safeShow = () => { try { showAccordingToSchedule(); } catch {} };
+
+      // 1) מיד מהזיכרון המקומי (אם יש)
+      const [cf] = await Promise.all([loadFile(cacheText), loadSchedule(cacheText)]);
+      if (cf) fileHalachot = cf;
+      safeShow();
+
+      // 2) מהרשת
+      const [f] = await Promise.all([loadFile(), loadSchedule()]);
+      if (f) fileHalachot = f;
+      safeShow();
+
+      // ברירת מחדל רק אם לא הוצג שום דבר (למשל אין רשת בפעם הראשונה)
+      if (lastShownKey === null) renderFallback();
+      setInterval(safeShow, TICK_MS);
+      setInterval(() => loadSchedule().then(safeShow), SCHEDULE_RELOAD_MS);
+    }
+
+    init();
+  </script>
+</body>
+</html>

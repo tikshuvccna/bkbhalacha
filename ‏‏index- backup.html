@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>הלכה יומית</title>
+
+  <style>
+    :root{
+      --bg:#3A5783;
+      --fg:#ffffff;
+      --accent:#FFD54A;
+      --maxw: 1400px;
+      --font: "Assistant", Arial, sans-serif;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: var(--font);
+      overflow: hidden;
+    }
+
+    .wrap{
+      min-height: 100%;
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+      padding: 0.6vh 1.2vw;   /* קטן וחסכוני */
+      box-sizing:border-box;
+    }
+
+    .box{
+      width:100%;
+      max-width: var(--maxw);
+      text-align: center;
+    }
+
+    /* כותרת – אותו פונט כמו הגוף */
+    .headline{
+      font-family: var(--font);
+      font-weight: 800;
+      color: var(--accent);
+      font-size: clamp(28px, 3.6vw, 66px); /* ⬅️ גדול יותר */
+      line-height: 1.02;
+      margin: 0;
+      padding: 0;
+      white-space: pre-wrap;
+    }
+
+    /* גוף – אותו פונט */
+    .body{
+      font-family: var(--font);
+      font-weight: 400;
+      color: var(--fg);
+      font-size: clamp(22px, 2.8vw, 52px); /* ⬅️ גדול יותר */
+      line-height: 1.08;
+      margin: 0;
+      padding: 0;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .placeholder{
+      font-family: var(--font);
+      font-size: clamp(18px, 2.2vw, 34px);
+      margin: 0;
+      line-height: 1.2;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="box">
+      <div id="content" class="placeholder">טוען…</div>
+    </div>
+  </div>
+
+  <script>
+    const ENDPOINT =
+      "https://script.google.com/macros/s/AKfycbwMPq4EIJylzo9ArZkf-mvZ2SHukQYdkUTQ-1jov91LK2Bk6zdt5_fx6PArpC7tjP_n/exec";
+
+    const FALLBACK_TEXT =
+`הלכה יומית - כיבוד הורים וחינוך
+שתי מצוות מרכזיות ישנן בתורה ביחס להורים וביחס לבנים. האחת מצוות כיבוד הורים, שמפאת חשיבותה נזכרה בעשרת הדיברות. והשנייה, מצוות חינוך הילדים, שהיא בעצם חלק מרכזי ממצוות תלמוד תורה, שעליה אמרו חכמים שהיא שקולה כנגד כל המצוות כולן.`;
+
+    function splitFirstLine(text){
+      const t = (text || "").toString().replace(/\r\n/g, "\n").trim();
+      const idx = t.indexOf("\n");
+      if (idx === -1) return { first: t, rest: "" };
+      return { first: t.slice(0, idx).trim(), rest: t.slice(idx + 1).trim() };
+    }
+
+    function render(raw){
+      const container = document.getElementById("content");
+      const { first, rest } = splitFirstLine(raw);
+
+      const h = document.createElement("div");
+      h.className = "headline";
+      h.textContent = first;
+
+      const b = document.createElement("div");
+      b.className = "body";
+      b.textContent = rest;
+
+      container.innerHTML = "";
+      container.className = "";
+      container.appendChild(h);
+      container.appendChild(b);
+    }
+
+    async function loadOnce(){
+      try {
+        const res = await fetch(ENDPOINT, { cache: "no-store" });
+        const data = await res.json();
+
+        const raw = (data && data.status === "ok" && data.short_summary)
+          ? data.short_summary.toString().trim()
+          : "";
+
+        if (raw) render(raw);
+      } catch (e) {
+        // נשאר עם ברירת מחדל
+      }
+    }
+
+    render(FALLBACK_TEXT);
+    loadOnce();
+  </script>
+</body>
+</html>
