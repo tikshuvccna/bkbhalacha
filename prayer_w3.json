@@ -1,10 +1,20 @@
 [
   {
     "type": "image",
+    "src": "media/m26-camp-kids2.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "image",
     "src": "media/m26-r-w3-kids-q.jpg",
     "seconds": 15,
     "from": "2026-10-25T00:00",
     "until": "2026-10-28T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
   },
   {
     "type": "image",
@@ -71,6 +81,31 @@
   },
   {
     "type": "image",
+    "src": "media/m26-campA-1.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-campA-2.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-campA-3.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-campA-4.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
     "src": "media/m26-r-w3-kids-a.jpg",
     "seconds": 15,
     "from": "2026-10-28T00:00",
@@ -123,10 +158,20 @@
   },
   {
     "type": "image",
+    "src": "media/m26-gif-welcome.gif",
+    "seconds": 15
+  },
+  {
+    "type": "image",
     "src": "media/m26-r-w3-adult-q.jpg",
     "seconds": 15,
     "from": "2026-10-25T00:00",
     "until": "2026-10-30T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
   },
   {
     "type": "image",
@@ -136,14 +181,20 @@
     "until": "2026-10-30T00:00"
   },
   {
+    "type": "text",
+    "title": "הידעת?",
+    "body": "בקדיש אנו חותמים כל שלב בתפילה ומרוממים אותו אל כבוד שמים.",
+    "seconds": 15
+  },
+  {
     "type": "halacha",
     "file": "month_pool.txt",
     "seconds": 15
   },
   {
     "type": "text",
-    "title": "הידעת?",
-    "body": "בקדיש אנו חותמים כל שלב בתפילה ומרוממים אותו אל כבוד שמים.",
+    "title": "מבוגרים, זה בשבילכם",
+    "body": "חידות על הפרשה ועל ההלכה, בכל שבוע. כדאי לעצור לדקה, לחשוב, ולדבר על זה עם מי שלידכם.",
     "seconds": 15
   },
   {

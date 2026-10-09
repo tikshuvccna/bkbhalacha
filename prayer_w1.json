@@ -1,10 +1,20 @@
 [
   {
     "type": "image",
+    "src": "media/m26-camp-how.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "image",
     "src": "media/m26-r-w1-kids-q.jpg",
     "seconds": 15,
     "from": "2026-10-11T00:00",
     "until": "2026-10-14T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
   },
   {
     "type": "image",
@@ -78,15 +88,35 @@
   },
   {
     "type": "image",
-    "src": "media/m26-r-w1-kids-a.jpg",
-    "seconds": 15,
-    "from": "2026-10-14T00:00",
-    "until": "2026-10-18T00:00"
+    "src": "media/m26-campA-1.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-campA-2.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-campA-3.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-campA-4.jpg",
+    "seconds": 15
   },
   {
     "type": "halacha",
     "file": "month_pool.txt",
     "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w1-kids-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-14T00:00",
+    "until": "2026-10-18T00:00"
   },
   {
     "type": "text",
@@ -97,14 +127,14 @@
     "until": "2026-10-18T00:00"
   },
   {
-    "type": "text",
-    "title": "הידעת?",
-    "body": "ראש חודש חשוון הוא יומיים: ל' בתשרי וא' בחשוון, כי תשרי הוא חודש מלא בן שלושים יום.",
+    "type": "halacha",
+    "file": "month_pool.txt",
     "seconds": 15
   },
   {
-    "type": "halacha",
-    "file": "month_pool.txt",
+    "type": "text",
+    "title": "הידעת?",
+    "body": "ראש חודש חשוון הוא יומיים: ל' בתשרי וא' בחשוון, כי תשרי הוא חודש מלא בן שלושים יום.",
     "seconds": 15
   },
   {
@@ -113,6 +143,16 @@
     "seconds": 15,
     "from": "2026-10-16T00:00",
     "until": "2026-10-19T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-gif-kids.gif",
+    "seconds": 15
   },
   {
     "type": "image",
@@ -145,11 +185,22 @@
     "seconds": 15
   },
   {
+    "type": "text",
+    "title": "איך מצטרפים?",
+    "body": "פשוט מסתכלים בלוח לפני התפילה ואחריה, חושבים ומדברים. התשובה לכל חידה מופיעה בתפילה הבאה, ומוזמנים לחזור ולבדוק אם צדקתם.",
+    "seconds": 15
+  },
+  {
     "type": "image",
     "src": "media/m26-r-w1-adult-a.jpg",
     "seconds": 15,
     "from": "2026-10-16T00:00",
     "until": "2026-10-18T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
   },
   {
     "type": "text",
@@ -160,14 +211,14 @@
     "until": "2026-10-20T00:00"
   },
   {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
-  },
-  {
     "type": "text",
     "title": "הידעת?",
     "body": "מי שהסתפק אם אמר ותן טל ומטר כראוי בתוך שלושים יום מהחלפת הנוסח, מן הסתם טעה וחוזר. אחרי שלושים יום, אינו חוזר.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
     "seconds": 15
   },
   {
@@ -178,14 +229,14 @@
     "until": "2026-10-16T00:00"
   },
   {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
-  },
-  {
     "type": "text",
     "title": "הידעת?",
     "body": "בית הדין היה מקדש את החודש לפי עדים שראו את הלבנה. מארץ ישראל יצאו שליחים להודיע לגולה מתי נתקדש החודש.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
     "seconds": 15
   },
   {
@@ -196,14 +247,14 @@
     "until": "2026-10-19T00:00"
   },
   {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
-  },
-  {
     "type": "text",
     "title": "הידעת?",
     "body": "נשים רבות נוהגות להימנע ממלאכה בראש חודש, כי לא חטאו בחטא העגל.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
     "seconds": 15
   },
   {
@@ -214,14 +265,14 @@
     "until": "2026-10-15T00:00"
   },
   {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
-  },
-  {
     "type": "text",
     "title": "הידעת?",
     "body": "ערב ראש חודש נקרא יום כיפור קטן, כי הוא זמן כפרה על החודש שעבר.",
+    "seconds": 15
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
     "seconds": 15
   },
   {
@@ -232,25 +283,20 @@
     "until": "2026-10-18T00:00"
   },
   {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
-  },
-  {
     "type": "text",
     "title": "הידעת?",
     "body": "בראש חודש אומרים יעלה ויבוא גם בברכת המזון, בברכת רחם.",
     "seconds": 15
   },
   {
-    "type": "text",
-    "title": "הידעת?",
-    "body": "ההלל בראש חודש הוא מנהג, ולכן מדלגים על שני חלקים מתוכו.",
+    "type": "halacha",
+    "file": "month_pool.txt",
     "seconds": 15
   },
   {
-    "type": "halacha",
-    "file": "month_pool.txt",
+    "type": "text",
+    "title": "הידעת?",
+    "body": "ההלל בראש חודש הוא מנהג, ולכן מדלגים על שני חלקים מתוכו.",
     "seconds": 15
   },
   {

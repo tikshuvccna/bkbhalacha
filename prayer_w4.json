@@ -1,10 +1,20 @@
 [
   {
     "type": "image",
+    "src": "media/m26-camp-adults2.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "image",
     "src": "media/m26-r-w4-kids-q.jpg",
     "seconds": 15,
     "from": "2026-11-01T00:00",
     "until": "2026-11-04T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
   },
   {
     "type": "image",
@@ -79,15 +89,30 @@
   },
   {
     "type": "image",
-    "src": "media/m26-r-w4-kids-a.jpg",
-    "seconds": 15,
-    "from": "2026-11-04T00:00",
-    "until": "2026-11-10T00:00"
+    "src": "media/m26-campB-1.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-campB-2.jpg",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-campB-3.jpg",
+    "seconds": 15
   },
   {
     "type": "halacha",
     "file": "month_pool.txt",
     "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-r-w4-kids-a.jpg",
+    "seconds": 15,
+    "from": "2026-11-04T00:00",
+    "until": "2026-11-10T00:00"
   },
   {
     "type": "text",
@@ -98,9 +123,19 @@
     "until": "2026-11-08T00:00"
   },
   {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
     "type": "text",
     "title": "הידעת?",
     "body": "משעת חצות היום צריך להיזהר ממלאכות ארוכות שעלולות לגרום לשכוח להתפלל מנחה.",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-gif-kids.gif",
     "seconds": 15
   },
   {
@@ -127,6 +162,12 @@
     "seconds": 15
   },
   {
+    "type": "text",
+    "title": "ברוכים הבאים ללוח החדש!",
+    "body": "בלוח מחכות לכם חידות לילדים ולמבוגרים, תמונות, קומיקס והלכות. הציצו בין התפילות, ובואו לפתור יחד.",
+    "seconds": 15
+  },
+  {
     "type": "image",
     "src": "media/m26-r-w4-adult-a.jpg",
     "seconds": 15,
@@ -134,14 +175,14 @@
     "until": "2026-11-10T00:00"
   },
   {
-    "type": "text",
-    "title": "הידעת?",
-    "body": "זמן קריאת שמע של ערבית נקבע עד חצות הלילה, כדי שלא נישקע בשינה ונפסיד אותו.",
+    "type": "halacha",
+    "file": "month_pool.txt",
     "seconds": 15
   },
   {
-    "type": "halacha",
-    "file": "month_pool.txt",
+    "type": "text",
+    "title": "הידעת?",
+    "body": "זמן קריאת שמע של ערבית נקבע עד חצות הלילה, כדי שלא נישקע בשינה ונפסיד אותו.",
     "seconds": 15
   },
   {
@@ -152,14 +193,14 @@
     "until": "2026-11-06T00:00"
   },
   {
-    "type": "text",
-    "title": "הידעת?",
-    "body": "הקדיש עוסק בכבוד שמים, ולכן אסור לפטפט בשעה שאומרים אותו.",
+    "type": "halacha",
+    "file": "month_pool.txt",
     "seconds": 15
   },
   {
-    "type": "halacha",
-    "file": "month_pool.txt",
+    "type": "text",
+    "title": "הידעת?",
+    "body": "הקדיש עוסק בכבוד שמים, ולכן אסור לפטפט בשעה שאומרים אותו.",
     "seconds": 15
   },
   {
@@ -170,14 +211,14 @@
     "until": "2026-11-09T00:00"
   },
   {
-    "type": "text",
-    "title": "הידעת?",
-    "body": "אחר שמונה עשרה ותחנונים אומרים חצי קדיש, ואחר קדושה דסדרא קדיש תתקבל.",
+    "type": "halacha",
+    "file": "month_pool.txt",
     "seconds": 15
   },
   {
-    "type": "halacha",
-    "file": "month_pool.txt",
+    "type": "text",
+    "title": "הידעת?",
+    "body": "אחר שמונה עשרה ותחנונים אומרים חצי קדיש, ואחר קדושה דסדרא קדיש תתקבל.",
     "seconds": 15
   },
   {
@@ -186,6 +227,11 @@
     "seconds": 15,
     "from": "2026-11-02T00:00",
     "until": "2026-11-05T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
   },
   {
     "type": "image",

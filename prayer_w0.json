@@ -1,10 +1,22 @@
 [
   {
     "type": "image",
+    "src": "media/m26-camp-welcome1.jpg",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "image",
     "src": "media/m26-r-w0-kids-q.jpg",
     "seconds": 15,
     "from": "2026-10-06T00:00",
     "until": "2026-10-08T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
   },
   {
     "type": "image",
@@ -78,7 +90,27 @@
   },
   {
     "type": "image",
+    "src": "media/m26-camp-welcome2.jpg",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
     "src": "media/m26-r-w0-kids-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-08T00:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "text",
+    "title": "מה לא הגיוני בתמונה?",
+    "body": "התשובה: דגים חיים במים, ועופות עפים בשמיים, ובתמונה הכל הפוך! ביום החמישי ברא ה' את דגי הים ואת העוף שיעופף על הארץ על פני רקיע השמיים. (בראשית א, כ-כב)",
     "seconds": 15,
     "from": "2026-10-08T00:00",
     "until": "2026-10-11T00:00"
@@ -90,17 +122,16 @@
   },
   {
     "type": "text",
-    "title": "מה לא הגיוני בתמונה?",
-    "body": "התשובה: דגים חיים במים, ועופות עפים בשמיים, ובתמונה הכל הפוך! ביום החמישי ברא ה' את דגי הים ואת העוף שיעופף על הארץ על פני רקיע השמיים. (בראשית א, כ-כב)",
-    "seconds": 15,
-    "from": "2026-10-08T00:00",
-    "until": "2026-10-11T00:00"
-  },
-  {
-    "type": "text",
     "title": "הידעת?",
     "body": "ערבית נתקנה על ידי יעקב אבינו, ובמקור היא רשות. עם הזמן קיבלו עליה כל ישראל כחובה.",
     "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-camp-kids1.jpg",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
   },
   {
     "type": "halacha",
@@ -134,7 +165,27 @@
   },
   {
     "type": "image",
+    "src": "media/m26-camp-kids2.jpg",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
     "src": "media/m26-r-w0-adult-a.jpg",
+    "seconds": 15,
+    "from": "2026-10-09T00:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "text",
+    "title": "מה לא הגיוני בתמונה?",
+    "body": "התשובה: מנחה מתפללים אחר חצות היום ועד השקיעה, ובדיעבד עוד כארבע עשרה דקות אחריה. בלילה מתפללים ערבית ולא מנחה. (פניני הלכה, תפילה כד, ד)",
     "seconds": 15,
     "from": "2026-10-09T00:00",
     "until": "2026-10-11T00:00"
@@ -146,17 +197,16 @@
   },
   {
     "type": "text",
-    "title": "מה לא הגיוני בתמונה?",
-    "body": "התשובה: מנחה מתפללים אחר חצות היום ועד השקיעה, ובדיעבד עוד כארבע עשרה דקות אחריה. בלילה מתפללים ערבית ולא מנחה. (פניני הלכה, תפילה כד, ד)",
-    "seconds": 15,
-    "from": "2026-10-09T00:00",
-    "until": "2026-10-11T00:00"
-  },
-  {
-    "type": "text",
     "title": "הידעת?",
     "body": "ספר תורה כשר נכתב לשם שמים בדיו על קלף, כפי שכתב משה רבנו את ספר התורה הראשון.",
     "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-camp-adults1.jpg",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
   },
   {
     "type": "halacha",
@@ -183,16 +233,35 @@
   },
   {
     "type": "image",
+    "src": "media/m26-camp-adults2.jpg",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "image",
     "src": "media/m26-r-w0-kids2-a.jpg",
     "seconds": 15,
     "from": "2026-10-09T00:00",
     "until": "2026-10-12T00:00"
   },
   {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
     "type": "text",
     "title": "הידעת?",
     "body": "קדושה דסדרא נאמרת גם בארמית, כדי שכל העם, שהיה רגיל בארמית, יבין את הפסוקים.",
     "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-camp-how.jpg",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
   },
   {
     "type": "halacha",
@@ -219,16 +288,155 @@
   },
   {
     "type": "image",
+    "src": "media/m26-camp-together.jpg",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "image",
     "src": "media/m26-r-w0-adult2-a.jpg",
     "seconds": 15,
     "from": "2026-10-08T00:00",
     "until": "2026-10-11T00:00"
   },
   {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
     "type": "text",
     "title": "הידעת?",
     "body": "פיטום הקטורת נאמר כנגד הקטורת שהקטירו בבית המקדש בכל בוקר וערב.",
     "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-campA-1.jpg",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-campA-2.jpg",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-campA-3.jpg",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-campA-4.jpg",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-campB-1.jpg",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-campB-2.jpg",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-campB-3.jpg",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-gif-welcome.gif",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-gif-kids.gif",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-gif-adults.gif",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "text",
+    "title": "ברוכים הבאים ללוח החדש!",
+    "body": "בלוח מחכות לכם חידות לילדים ולמבוגרים, תמונות, קומיקס והלכות. הציצו בין התפילות, ובואו לפתור יחד.",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "איך מצטרפים?",
+    "body": "פשוט מסתכלים בלוח לפני התפילה ואחריה, חושבים ומדברים. התשובה לכל חידה מופיעה בתפילה הבאה, ומוזמנים לחזור ולבדוק אם צדקתם.",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "text",
+    "title": "ילדים יקרים",
+    "body": "בכל שבוע מחכות לכם חידות על הפרשה ועל החגים. מי שפותר, מספר לחברים ולמשפחה, ושואל גם אותם.",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "מבוגרים, זה בשבילכם",
+    "body": "חידות על הפרשה ועל ההלכה, בכל שבוע. כדאי לעצור לדקה, לחשוב, ולדבר על זה עם מי שלידכם.",
+    "seconds": 15,
+    "from": "2026-10-09T12:00",
+    "until": "2026-10-11T00:00"
   },
   {
     "type": "halacha",

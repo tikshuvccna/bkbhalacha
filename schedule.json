@@ -47,7 +47,7 @@
     "_note": "זמני התפילה לפי תל אביב. Shabbat נחשב אוטומטית. yomtov = ימי חג שאינם שבת; late_shacharit = חול המועד וימי חופשה (שחרית 07:00). בחודש 6/10-9/11/2026 אין כאלה.",
     "lat": 32.0853,
     "lon": 34.7818,
-    "margin_min": 15,
+    "margin_min": 20,
     "shabbat_entry_before_sunset_min": 20,
     "shabbat_exit_after_sunset_min": 40,
     "weekday_shacharit": [
@@ -60,7 +60,7 @@
     ],
     "shabbat_shacharit": [
       "08:30",
-      "11:00"
+      "13:00"
     ],
     "yomtov": [],
     "late_shacharit": [],
