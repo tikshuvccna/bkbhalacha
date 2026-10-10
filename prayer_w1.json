@@ -1,20 +1,10 @@
 [
   {
     "type": "image",
-    "src": "media/m26-camp-how.jpg",
-    "seconds": 15
-  },
-  {
-    "type": "image",
-    "src": "media/m26-r-w1-kids-q.jpg",
-    "seconds": 15,
+    "src": "media/m26-hr-h-w1-k1-q.jpg",
+    "seconds": 60,
     "from": "2026-10-11T00:00",
     "until": "2026-10-14T00:00"
-  },
-  {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
   },
   {
     "type": "image",
@@ -45,7 +35,7 @@
   {
     "type": "image",
     "src": "media/m26-nv-w1-a.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-11T00:00",
     "until": "2026-10-14T00:00"
   },
@@ -63,14 +53,14 @@
   {
     "type": "image",
     "src": "media/m26-s-rosh-chodesh.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-10T18:00",
     "until": "2026-10-13T00:00"
   },
   {
     "type": "image",
     "src": "media/m26-mi-avot-4-1.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-11T00:00",
     "until": "2026-10-18T00:00"
   },
@@ -82,54 +72,29 @@
   {
     "type": "image",
     "src": "media/m26-sh-b.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-16T12:00",
     "until": "2026-10-18T00:00"
   },
   {
     "type": "image",
-    "src": "media/m26-campA-1.jpg",
-    "seconds": 15
-  },
-  {
-    "type": "image",
-    "src": "media/m26-campA-2.jpg",
-    "seconds": 15
-  },
-  {
-    "type": "image",
-    "src": "media/m26-campA-3.jpg",
-    "seconds": 15
-  },
-  {
-    "type": "image",
-    "src": "media/m26-campA-4.jpg",
-    "seconds": 15
+    "src": "media/m26-hr-h-w1-k1-a.jpg",
+    "seconds": 60,
+    "from": "2026-10-14T00:00",
+    "until": "2026-10-18T00:00"
   },
   {
     "type": "halacha",
     "file": "month_pool.txt",
     "seconds": 15
-  },
-  {
-    "type": "image",
-    "src": "media/m26-r-w1-kids-a.jpg",
-    "seconds": 15,
-    "from": "2026-10-14T00:00",
-    "until": "2026-10-18T00:00"
   },
   {
     "type": "text",
     "title": "מה לא הגיוני בתמונה?",
     "body": "התשובה: בראש חודש הלבנה רק מתחדשת: היא דקה וכמעט לא נראית, ולא מלאה. לכן יש הממתינים לברך עליה עד שתגדל מעט. (פניני הלכה, זמנים א, יח)",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-14T00:00",
     "until": "2026-10-18T00:00"
-  },
-  {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
   },
   {
     "type": "text",
@@ -138,27 +103,22 @@
     "seconds": 15
   },
   {
-    "type": "image",
-    "src": "media/m26-s-vten-tal.jpg",
-    "seconds": 15,
-    "from": "2026-10-16T00:00",
-    "until": "2026-10-19T00:00"
-  },
-  {
     "type": "halacha",
     "file": "month_pool.txt",
     "seconds": 15
   },
   {
     "type": "image",
-    "src": "media/m26-gif-kids.gif",
-    "seconds": 15
+    "src": "media/m26-s-vten-tal.jpg",
+    "seconds": 60,
+    "from": "2026-10-16T00:00",
+    "until": "2026-10-19T00:00"
   },
   {
     "type": "image",
-    "src": "media/m26-r-w1-adult-q.jpg",
-    "seconds": 15,
-    "from": "2026-10-11T00:00",
+    "src": "media/m26-hr-h-w1-k2-q.jpg",
+    "seconds": 60,
+    "from": "2026-10-13T00:00",
     "until": "2026-10-16T00:00"
   },
   {
@@ -169,7 +129,7 @@
   {
     "type": "image",
     "src": "media/m26-nv-w1-b.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-13T00:00",
     "until": "2026-10-16T00:00"
   },
@@ -185,30 +145,24 @@
     "seconds": 15
   },
   {
-    "type": "text",
-    "title": "איך מצטרפים?",
-    "body": "פשוט מסתכלים בלוח לפני התפילה ואחריה, חושבים ומדברים. התשובה לכל חידה מופיעה בתפילה הבאה, ומוזמנים לחזור ולבדוק אם צדקתם.",
-    "seconds": 15
-  },
-  {
     "type": "image",
-    "src": "media/m26-r-w1-adult-a.jpg",
-    "seconds": 15,
+    "src": "media/m26-hr-h-w1-k2-a.jpg",
+    "seconds": 60,
     "from": "2026-10-16T00:00",
-    "until": "2026-10-18T00:00"
-  },
-  {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
+    "until": "2026-10-20T00:00"
   },
   {
     "type": "text",
     "title": "מה לא הגיוני בתמונה?",
     "body": "התשובה: בזמן המבול התיבה צפה על פני המים, כשהגשם יורד ארבעים יום וארבעים לילה. בתמונה היא עומדת על חול יבש מתחת לשמש. (בראשית ז, יב ו-יח)",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-16T00:00",
     "until": "2026-10-20T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
   },
   {
     "type": "text",
@@ -217,16 +171,23 @@
     "seconds": 15
   },
   {
+    "type": "image",
+    "src": "media/m26-hr-h-w1-a1-q.jpg",
+    "seconds": 60,
+    "from": "2026-10-12T00:00",
+    "until": "2026-10-15T00:00"
+  },
+  {
     "type": "halacha",
     "file": "month_pool.txt",
     "seconds": 15
   },
   {
     "type": "image",
-    "src": "media/m26-r-w1-kids2-q.jpg",
-    "seconds": 15,
-    "from": "2026-10-13T00:00",
-    "until": "2026-10-16T00:00"
+    "src": "media/m26-pr-m-hillel.jpg",
+    "seconds": 60,
+    "from": "2026-10-11T00:00",
+    "until": "2026-10-14T00:00"
   },
   {
     "type": "text",
@@ -241,10 +202,23 @@
   },
   {
     "type": "image",
-    "src": "media/m26-r-w1-kids2-a.jpg",
-    "seconds": 15,
-    "from": "2026-10-16T00:00",
+    "src": "media/m26-hr-h-w1-a1-a.jpg",
+    "seconds": 60,
+    "from": "2026-10-15T00:00",
     "until": "2026-10-19T00:00"
+  },
+  {
+    "type": "text",
+    "title": "מי האיש בתמונה?",
+    "body": "התשובה: הלל הזקן. \"מה ששנוא עליך, אל תעשה לחברך. זו כל התורה כולה, והשאר פירושה, לך ולמד.\" (שבת לא ע\"א)",
+    "seconds": 60,
+    "from": "2026-10-14T00:00",
+    "until": "2026-10-18T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
   },
   {
     "type": "text",
@@ -253,14 +227,21 @@
     "seconds": 15
   },
   {
+    "type": "image",
+    "src": "media/m26-hr-h-w1-a2-q.jpg",
+    "seconds": 60,
+    "from": "2026-10-14T00:00",
+    "until": "2026-10-17T00:00"
+  },
+  {
     "type": "halacha",
     "file": "month_pool.txt",
     "seconds": 15
   },
   {
     "type": "image",
-    "src": "media/m26-r-w1-adult2-q.jpg",
-    "seconds": 15,
+    "src": "media/m26-pr-p-sons-of-noach.jpg",
+    "seconds": 60,
     "from": "2026-10-12T00:00",
     "until": "2026-10-15T00:00"
   },
@@ -277,16 +258,36 @@
   },
   {
     "type": "image",
-    "src": "media/m26-r-w1-adult2-a.jpg",
-    "seconds": 15,
+    "src": "media/m26-hr-h-w1-a2-a.jpg",
+    "seconds": 60,
+    "from": "2026-10-17T00:00",
+    "until": "2026-10-21T00:00"
+  },
+  {
+    "type": "text",
+    "title": "מי האנשים בתמונה?",
+    "body": "התשובה: שם, חם ויפת, בני נח. \"וַיִּהְיוּ בְנֵי נֹחַ הַיֹּצְאִים מִן הַתֵּבָה: שֵׁם וְחָם וָיָפֶת\" (בראשית ט, יח)",
+    "seconds": 60,
     "from": "2026-10-15T00:00",
-    "until": "2026-10-18T00:00"
+    "until": "2026-10-19T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
   },
   {
     "type": "text",
     "title": "הידעת?",
     "body": "בראש חודש אומרים יעלה ויבוא גם בברכת המזון, בברכת רחם.",
     "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-pr-e-babel.jpg",
+    "seconds": 60,
+    "from": "2026-10-13T00:00",
+    "until": "2026-10-16T00:00"
   },
   {
     "type": "halacha",
@@ -301,9 +302,82 @@
   },
   {
     "type": "text",
+    "title": "מה האירוע בתמונה?",
+    "body": "התשובה: מגדל בבל. \"הָבָה נִבְנֶה לָּנוּ עִיר וּמִגְדָּל וְרֹאשׁוֹ בַשָּׁמַיִם\" (בראשית יא, ד)",
+    "seconds": 60,
+    "from": "2026-10-16T00:00",
+    "until": "2026-10-20T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
     "title": "הידעת?",
     "body": "ברכת הלבנה נחשבת כמעין קבלת פני שכינה.",
     "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-pr-v-rainbow.jpg",
+    "seconds": 60,
+    "from": "2026-10-14T00:00",
+    "until": "2026-10-17T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "איזה פסוק מתואר בתמונה?",
+    "body": "התשובה: \"אֶת קַשְׁתִּי נָתַתִּי בֶּעָנָן, וְהָיְתָה לְאוֹת בְּרִית בֵּינִי וּבֵין הָאָרֶץ\" (בראשית ט, יג). הקשת היא אות הברית שלא יהיה עוד מבול.",
+    "seconds": 60,
+    "from": "2026-10-17T00:00",
+    "until": "2026-10-21T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-pr-v-dove.jpg",
+    "seconds": 60,
+    "from": "2026-10-15T00:00",
+    "until": "2026-10-18T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "איזה פסוק מתואר בתמונה?",
+    "body": "התשובה: \"וַתָּבֹא אֵלָיו הַיּוֹנָה לְעֵת עֶרֶב, וְהִנֵּה עֲלֵה זַיִת טָרָף בְּפִיהָ\" (בראשית ח, יא)",
+    "seconds": 60,
+    "from": "2026-10-18T00:00",
+    "until": "2026-10-22T00:00"
+  },
+  {
+    "type": "image",
+    "src": "media/m26-pr-e-zimun.jpg",
+    "seconds": 60,
+    "from": "2026-10-12T00:00",
+    "until": "2026-10-15T00:00"
+  },
+  {
+    "type": "halacha",
+    "file": "month_pool.txt",
+    "seconds": 15
+  },
+  {
+    "type": "text",
+    "title": "מה האירוע בתמונה?",
+    "body": "התשובה: זימון לברכת המזון: שלושה שאכלו כאחד חייבים לזמן, ואחד אומר: \"רבותי, נברך.\" (ברכות ז, א)",
+    "seconds": 60,
+    "from": "2026-10-15T00:00",
+    "until": "2026-10-19T00:00"
   },
   {
     "type": "halacha",

@@ -2,14 +2,14 @@
   {
     "type": "image",
     "src": "media/m26-camp-welcome1.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-09T12:00",
     "until": "2026-10-11T00:00"
   },
   {
     "type": "image",
     "src": "media/m26-r-w0-kids-q.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-06T00:00",
     "until": "2026-10-08T00:00"
   },
@@ -47,7 +47,7 @@
   {
     "type": "image",
     "src": "media/m26-nv-w0-a.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-06T00:00",
     "until": "2026-10-08T00:00"
   },
@@ -65,14 +65,14 @@
   {
     "type": "image",
     "src": "media/m26-s-rosh-chodesh.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-10T18:00",
     "until": "2026-10-13T00:00"
   },
   {
     "type": "image",
     "src": "media/m26-mi-avot-1-2.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-06T00:00",
     "until": "2026-10-11T00:00"
   },
@@ -84,14 +84,14 @@
   {
     "type": "image",
     "src": "media/m26-sh-a.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-09T12:00",
     "until": "2026-10-11T00:00"
   },
   {
     "type": "image",
     "src": "media/m26-camp-welcome2.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-09T12:00",
     "until": "2026-10-11T00:00"
   },
@@ -103,7 +103,7 @@
   {
     "type": "image",
     "src": "media/m26-r-w0-kids-a.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-08T00:00",
     "until": "2026-10-11T00:00"
   },
@@ -111,7 +111,7 @@
     "type": "text",
     "title": "מה לא הגיוני בתמונה?",
     "body": "התשובה: דגים חיים במים, ועופות עפים בשמיים, ובתמונה הכל הפוך! ביום החמישי ברא ה' את דגי הים ואת העוף שיעופף על הארץ על פני רקיע השמיים. (בראשית א, כ-כב)",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-08T00:00",
     "until": "2026-10-11T00:00"
   },
@@ -129,7 +129,7 @@
   {
     "type": "image",
     "src": "media/m26-camp-kids1.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-09T12:00",
     "until": "2026-10-11T00:00"
   },
@@ -141,14 +141,14 @@
   {
     "type": "image",
     "src": "media/m26-r-w0-adult-q.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-06T00:00",
     "until": "2026-10-09T00:00"
   },
   {
     "type": "image",
     "src": "media/m26-nv-w0-b.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-07T00:00",
     "until": "2026-10-09T00:00"
   },
@@ -166,7 +166,7 @@
   {
     "type": "image",
     "src": "media/m26-camp-kids2.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-09T12:00",
     "until": "2026-10-11T00:00"
   },
@@ -178,7 +178,7 @@
   {
     "type": "image",
     "src": "media/m26-r-w0-adult-a.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-09T00:00",
     "until": "2026-10-11T00:00"
   },
@@ -186,7 +186,7 @@
     "type": "text",
     "title": "מה לא הגיוני בתמונה?",
     "body": "התשובה: מנחה מתפללים אחר חצות היום ועד השקיעה, ובדיעבד עוד כארבע עשרה דקות אחריה. בלילה מתפללים ערבית ולא מנחה. (פניני הלכה, תפילה כד, ד)",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-09T00:00",
     "until": "2026-10-11T00:00"
   },
@@ -204,7 +204,7 @@
   {
     "type": "image",
     "src": "media/m26-camp-adults1.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-09T12:00",
     "until": "2026-10-11T00:00"
   },
@@ -216,7 +216,7 @@
   {
     "type": "image",
     "src": "media/m26-r-w0-kids2-q.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-06T00:00",
     "until": "2026-10-09T00:00"
   },
@@ -234,14 +234,14 @@
   {
     "type": "image",
     "src": "media/m26-camp-adults2.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-09T12:00",
     "until": "2026-10-11T00:00"
   },
   {
     "type": "image",
     "src": "media/m26-r-w0-kids2-a.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-09T00:00",
     "until": "2026-10-12T00:00"
   },
@@ -259,7 +259,7 @@
   {
     "type": "image",
     "src": "media/m26-camp-how.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-09T12:00",
     "until": "2026-10-11T00:00"
   },
@@ -271,7 +271,7 @@
   {
     "type": "image",
     "src": "media/m26-r-w0-adult2-q.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-05T00:00",
     "until": "2026-10-08T00:00"
   },
@@ -289,14 +289,14 @@
   {
     "type": "image",
     "src": "media/m26-camp-together.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-09T12:00",
     "until": "2026-10-11T00:00"
   },
   {
     "type": "image",
     "src": "media/m26-r-w0-adult2-a.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-08T00:00",
     "until": "2026-10-11T00:00"
   },
@@ -373,14 +373,14 @@
   {
     "type": "image",
     "src": "media/m26-gif-welcome.gif",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-09T12:00",
     "until": "2026-10-11T00:00"
   },
   {
     "type": "image",
     "src": "media/m26-gif-kids.gif",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-09T12:00",
     "until": "2026-10-11T00:00"
   },
@@ -392,7 +392,7 @@
   {
     "type": "image",
     "src": "media/m26-gif-adults.gif",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-09T12:00",
     "until": "2026-10-11T00:00"
   },

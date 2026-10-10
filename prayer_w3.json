@@ -1,20 +1,10 @@
 [
   {
     "type": "image",
-    "src": "media/m26-camp-kids2.jpg",
-    "seconds": 15
-  },
-  {
-    "type": "image",
     "src": "media/m26-r-w3-kids-q.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-25T00:00",
     "until": "2026-10-28T00:00"
-  },
-  {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
   },
   {
     "type": "image",
@@ -45,7 +35,7 @@
   {
     "type": "image",
     "src": "media/m26-nv-w3-a.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-25T00:00",
     "until": "2026-10-28T00:00"
   },
@@ -63,14 +53,14 @@
   {
     "type": "image",
     "src": "media/m26-mi-avot-5-20.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-25T00:00",
     "until": "2026-11-01T00:00"
   },
   {
     "type": "image",
     "src": "media/m26-sh-b.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-30T12:00",
     "until": "2026-11-01T00:00"
   },
@@ -81,33 +71,8 @@
   },
   {
     "type": "image",
-    "src": "media/m26-campA-1.jpg",
-    "seconds": 15
-  },
-  {
-    "type": "image",
-    "src": "media/m26-campA-2.jpg",
-    "seconds": 15
-  },
-  {
-    "type": "image",
-    "src": "media/m26-campA-3.jpg",
-    "seconds": 15
-  },
-  {
-    "type": "image",
-    "src": "media/m26-campA-4.jpg",
-    "seconds": 15
-  },
-  {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
-  },
-  {
-    "type": "image",
     "src": "media/m26-r-w3-kids-a.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-28T00:00",
     "until": "2026-11-01T00:00"
   },
@@ -141,7 +106,7 @@
     "type": "text",
     "title": "מה לא הגיוני בתמונה?",
     "body": "התשובה: בחום היום, בלב המדבר, לא לובשים מעיל חורף וצעיף. אברהם ישב בפתח האוהל כחום היום וחיכה לאורחים. (בראשית יח, א)",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-28T00:00",
     "until": "2026-11-01T00:00"
   },
@@ -158,27 +123,22 @@
   },
   {
     "type": "image",
-    "src": "media/m26-gif-welcome.gif",
-    "seconds": 15
+    "src": "media/m26-r-w3-adult-q.jpg",
+    "seconds": 60,
+    "from": "2026-10-25T00:00",
+    "until": "2026-10-30T00:00"
   },
   {
     "type": "image",
-    "src": "media/m26-r-w3-adult-q.jpg",
-    "seconds": 15,
-    "from": "2026-10-25T00:00",
+    "src": "media/m26-nv-w3-b.jpg",
+    "seconds": 60,
+    "from": "2026-10-27T00:00",
     "until": "2026-10-30T00:00"
   },
   {
     "type": "halacha",
     "file": "month_pool.txt",
     "seconds": 15
-  },
-  {
-    "type": "image",
-    "src": "media/m26-nv-w3-b.jpg",
-    "seconds": 15,
-    "from": "2026-10-27T00:00",
-    "until": "2026-10-30T00:00"
   },
   {
     "type": "text",
@@ -187,20 +147,9 @@
     "seconds": 15
   },
   {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
-  },
-  {
-    "type": "text",
-    "title": "מבוגרים, זה בשבילכם",
-    "body": "חידות על הפרשה ועל ההלכה, בכל שבוע. כדאי לעצור לדקה, לחשוב, ולדבר על זה עם מי שלידכם.",
-    "seconds": 15
-  },
-  {
     "type": "image",
     "src": "media/m26-r-w3-adult-a.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-30T00:00",
     "until": "2026-11-01T00:00"
   },
@@ -213,7 +162,7 @@
     "type": "text",
     "title": "מה לא הגיוני בתמונה?",
     "body": "התשובה: קריאת התורה צריכה להיות מתוך ספר תורה כשר, שנכתב לשם שמים בדיו על קלף, ולא מספר מודפס. (פניני הלכה, תפילה כב, ב)",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-30T00:00",
     "until": "2026-11-03T00:00"
   },
@@ -231,7 +180,7 @@
   {
     "type": "image",
     "src": "media/m26-r-w3-kids2-q.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-27T00:00",
     "until": "2026-10-30T00:00"
   },
@@ -249,7 +198,7 @@
   {
     "type": "image",
     "src": "media/m26-r-w3-kids2-a.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-30T00:00",
     "until": "2026-11-02T00:00"
   },
@@ -267,7 +216,7 @@
   {
     "type": "image",
     "src": "media/m26-r-w3-adult2-q.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-26T00:00",
     "until": "2026-10-29T00:00"
   },
@@ -285,7 +234,7 @@
   {
     "type": "image",
     "src": "media/m26-r-w3-adult2-a.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-29T00:00",
     "until": "2026-11-01T00:00"
   },

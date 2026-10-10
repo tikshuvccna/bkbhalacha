@@ -1,20 +1,10 @@
 [
   {
     "type": "image",
-    "src": "media/m26-camp-together.jpg",
-    "seconds": 15
-  },
-  {
-    "type": "image",
     "src": "media/m26-r-w2-kids-q.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-18T00:00",
     "until": "2026-10-21T00:00"
-  },
-  {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
   },
   {
     "type": "image",
@@ -45,7 +35,7 @@
   {
     "type": "image",
     "src": "media/m26-nv-w2-a.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-18T00:00",
     "until": "2026-10-21T00:00"
   },
@@ -63,14 +53,14 @@
   {
     "type": "image",
     "src": "media/m26-s-vten-tal.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-16T00:00",
     "until": "2026-10-19T00:00"
   },
   {
     "type": "image",
     "src": "media/m26-mi-avot-1-12.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-18T00:00",
     "until": "2026-10-25T00:00"
   },
@@ -82,7 +72,7 @@
   {
     "type": "image",
     "src": "media/m26-sh-a.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-23T12:00",
     "until": "2026-10-25T00:00"
   },
@@ -101,28 +91,8 @@
   },
   {
     "type": "image",
-    "src": "media/m26-campB-1.jpg",
-    "seconds": 15
-  },
-  {
-    "type": "image",
-    "src": "media/m26-campB-2.jpg",
-    "seconds": 15
-  },
-  {
-    "type": "image",
-    "src": "media/m26-campB-3.jpg",
-    "seconds": 15
-  },
-  {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
-  },
-  {
-    "type": "image",
     "src": "media/m26-r-w2-kids-a.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-21T00:00",
     "until": "2026-10-25T00:00"
   },
@@ -130,7 +100,7 @@
     "type": "text",
     "title": "מה לא הגיוני בתמונה?",
     "body": "התשובה: כוכבים רואים בלילה, ובתמונה הם מנצנצים בצהריים בשמיים כחולים ומלאי שמש. ה' אמר לאברהם: הבט נא השמימה וספור הכוכבים, אם תוכל לספור אותם. (בראשית טו, ה)",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-21T00:00",
     "until": "2026-10-25T00:00"
   },
@@ -147,43 +117,27 @@
   },
   {
     "type": "image",
-    "src": "media/m26-gif-adults.gif",
-    "seconds": 15
-  },
-  {
-    "type": "halacha",
-    "file": "month_pool.txt",
-    "seconds": 15
-  },
-  {
-    "type": "image",
     "src": "media/m26-r-w2-adult-q.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-18T00:00",
     "until": "2026-10-23T00:00"
   },
   {
-    "type": "image",
-    "src": "media/m26-nv-w2-b.jpg",
-    "seconds": 15,
-    "from": "2026-10-20T00:00",
-    "until": "2026-10-23T00:00"
-  },
-  {
     "type": "halacha",
     "file": "month_pool.txt",
     "seconds": 15
+  },
+  {
+    "type": "image",
+    "src": "media/m26-nv-w2-b.jpg",
+    "seconds": 60,
+    "from": "2026-10-20T00:00",
+    "until": "2026-10-23T00:00"
   },
   {
     "type": "text",
     "title": "הידעת?",
     "body": "בקריאת התורה העולה הראשון כהן, השני לוי והשלישי ישראל, מפני דרכי שלום.",
-    "seconds": 15
-  },
-  {
-    "type": "text",
-    "title": "ילדים יקרים",
-    "body": "בכל שבוע מחכות לכם חידות על הפרשה ועל החגים. מי שפותר, מספר לחברים ולמשפחה, ושואל גם אותם.",
     "seconds": 15
   },
   {
@@ -194,7 +148,7 @@
   {
     "type": "image",
     "src": "media/m26-r-w2-adult-a.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-23T00:00",
     "until": "2026-10-25T00:00"
   },
@@ -202,7 +156,7 @@
     "type": "text",
     "title": "מה לא הגיוני בתמונה?",
     "body": "התשובה: ברכת הלבנה נאמרת בלילה, כשהלבנה נראית ונהנים מאורה, ולא בצהריים כשהשמש זורחת. נוהגים לברך במוצאי שבת, בשמחה. (פניני הלכה, זמנים א, יז-יח)",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-23T00:00",
     "until": "2026-10-27T00:00"
   },
@@ -220,7 +174,7 @@
   {
     "type": "image",
     "src": "media/m26-r-w2-kids2-q.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-20T00:00",
     "until": "2026-10-23T00:00"
   },
@@ -238,7 +192,7 @@
   {
     "type": "image",
     "src": "media/m26-r-w2-kids2-a.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-23T00:00",
     "until": "2026-10-26T00:00"
   },
@@ -256,7 +210,7 @@
   {
     "type": "image",
     "src": "media/m26-r-w2-adult2-q.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-19T00:00",
     "until": "2026-10-22T00:00"
   },
@@ -274,7 +228,7 @@
   {
     "type": "image",
     "src": "media/m26-r-w2-adult2-a.jpg",
-    "seconds": 15,
+    "seconds": 60,
     "from": "2026-10-22T00:00",
     "until": "2026-10-25T00:00"
   },
